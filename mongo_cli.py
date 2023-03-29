@@ -17,15 +17,16 @@ def mongo_cli(host, port, database, collection, query, insert):
     if query:
         query = json.loads(query)
         result = collection.find(query)
+        for document in result:
+                print(document)
         result_list = list(result)
         if len(result_list) == 0:
             print("Vacio")
-        for document in result:
-            print(document)
     elif insert:
-        insert_doc = json.loads(insert)
-        collection.insert_one(insert_doc)
-        print("Documento insertado correctamente")
+        insert_docs = json.loads(insert)
+        for doc in insert_docs:
+            collection.insert_one(doc)
+        print("Documentos insertados correctamente")
     else:
         print("Debe ingresar una operación (--query o --insert)")
 

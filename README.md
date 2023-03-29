@@ -77,6 +77,26 @@ Para crear las tareas relacionadas con el plan de lanzamiento de este mes que in
 python mongo_cli.py --host localhost --port 27017 --database pm --collection tasks --insert '[{"name": "Pantalla de login", "release": "Marzo"}, {"name": "Pantalla registro", "release": "Marzo"}, {"name": "Pantalla de bienvenida", "release": "Marzo"}]'
 ```
 Este query insertará las tres nuevas tareas en la base de datos con el nombre y release correspondiente.
+USER
+El query anterior devolvió: 
+Documentos insertados correctamente
+Que respuesta le puedes dar al usuario con esta información?
+ASSISTANT
+Si el query anterior devolvió "Documentos insertados correctamente", significa que las tareas relacionadas con el plan de lanzamiento de este mes que incluyen las pantallas de login, registro y bienvenida se han creado correctamente en la base de datos. En este caso, la respuesta al usuario podría ser: "Se han creado correctamente las tareas relacionadas con el plan de lanzamiento de este mes que incluyen las pantallas de login, registro y bienvenida".
+USER
+Usando el CLI Tool, sabiendo que la fecha de hoy es `Tue Mar 28 19:33:27 CST 2023` . --query debe ser un json valido. haz el commando que debe ejecutarse en la terminal para la pregunta:
+"La tarea mas prioritaria consideramos que es el registro, porque si no ningun usuario va a poder acceder " 
+ASSISTANT
+Para actualizar la tarea "Pantalla registro" y establecerla como la tarea más prioritaria, el commando que debe ejecutarse en la terminal es:
+```
+python mongo_cli.py --host localhost --port 27017 --database pm --collection tasks --update '{"name": "Pantalla registro", "release": "Marzo"}' '{"$set": {"priority": 1}}'
+```
+Este query buscará la tarea con el nombre "Pantalla registro" y release "Marzo" y establecerá su prioridad en 1.
+
+
+
+
+
 Add message
 Mode
 ChatBeta
@@ -92,3 +112,5 @@ Frequency penalty
 0
 Presence penalty
 0
+
+python mongo_cli.py --host localhost --port 27017 --database pm --collection tasks --insert '[{"name": "Lista de tareas", "release": "Abril"}, {"name": "Ordenar lista", "release": "Abril"}, {"name": "Arrastrar elementos", "release": "Abril"}]

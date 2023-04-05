@@ -1,13 +1,27 @@
 import { OpenAI } from "langchain";
 
-const model = new OpenAI({ openAIApiKey: process.env.OPENAI_API_KEY, temperature: 0.9 });
 
 export default async function (req, res) {
 
+  // const stream = new ReadableStream({
+    
+  // })
+
+  const model = new OpenAI({ 
+    openAIApiKey: process.env.OPENAI_API_KEY, 
+    temperature: 0.9,
+    // streaming: true,
+    // callbackManager:  CallbackManager.fromHandlers({
+    //   async handleLLMNewToken(token) {
+    //     console.log(token);
+    //   },
+    // }),
+  });
 
   console.log("question", req.body.question)
 
   const result = await model.call(
+    req.body.history + "\n" +
     req.body.question
   );
 

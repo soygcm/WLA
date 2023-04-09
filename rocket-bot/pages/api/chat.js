@@ -2,7 +2,7 @@ import { OpenAI } from "langchain";
 import { HNSWLib } from "langchain/vectorstores";
 import { OpenAIEmbeddings } from "langchain/embeddings";
 import { RetrievalQAChain } from "langchain/chains";
-
+import path from 'path';
 
 
 export default async function (req, res) {
@@ -13,8 +13,10 @@ export default async function (req, res) {
 
   const model = new OpenAI({ openAIApiKey: process.env.OPENAI_API_KEY });
 
+  const embeddings = path.join(process.cwd(), "embeddings")
+
   const loadedVectorStore = await HNSWLib.load(
-    "embeddings",
+    embeddings,
     new OpenAIEmbeddings({ openAIApiKey: process.env.OPENAI_API_KEY })
   );
 

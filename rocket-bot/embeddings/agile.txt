@@ -1,0 +1,838 @@
+Paso 1: Definición del Reto de Innovación.
+Etapa de Preparación del Proyecto.
+Una de las principales preguntas que nos hacen nuestros clientes es ¿Cómo defino un proyecto de innovación?, y aunque parece una pregunta sencilla de responder, la verdad es que muchas empresas fracasan a la hora de establecer sus retos de innovación.
+Cada vez más organizaciones están dirigiendo su atención a nuevas fuentes de ideas y conocimientos, para beneficiar sus procesos de innovación. A medida que el mundo se vuelve más complejo, los departamentos de desarrollo internos rara vez tienen todo el conocimiento necesario para crear soluciones innovadoras.
+El tema del desafío es probablemente la decisión más importante que afecta el éxito o el fracaso del proyecto. Con base en una amplia experiencia en la organización y facilitación de varios tipos de estrategias, hemos identificado tres problemas típicos con los que las organizaciones suelen tropezar:
+1. Un reto demasiado amplio
+2. Un reto demasiado específico
+3. Un reto de innovación ambiguo
+A continuación, profundizaremos en cada uno de estos problemas.
+La mayoría de las organizaciones tienen ciertas limitaciones, como las capacidades tecnológicas, los recursos disponibles, la estrategia comercial, etc. Si tales limitaciones existen, es probable que limiten las ideas que se pueden implementar. Por lo tanto, esas restricciones deben incluirse también en la especificación para que no se desperdicien recursos, para desarrollar ideas que no tienen la oportunidad de implementarse.
+Las ideas que queremos ejecutar deben estar alineadas a la estrategia del negocio. Normalmente la estrategia de negocio tiene una vida útil de hasta 5 años. En el caso de las ideas radicales, óseas ideas que se alejan mucho del corazón del negocio, deben estar acompañadas de un proceso de incubación a largo plazo. Un reto demasiado específico tiene varios problemas. Uno de los más frecuentes es querer resolver problemas del día a día con innovación. Por eso, el portafolio de proyectos de muchas empresas está saturado de temas de mejora continua.
+La innovación no puede resolver todos los problemas de la organización, su principal objetivo es generar valor al usuario y negocio a través de nuevo crecimiento.
+Debemos evitar definir un reto de innovación únicamente considerando problemas operativos del negocio. Excluir soluciones obvias puede ser una forma muy poderosa de generar resultados.
+La ambigüedad de un reto de innovación es señal de que la persona no tiene clara cuál es la estrategia de negocio, ni las necesidades de los clientes. También es el reflejo de una falta de visibilidad del rol de la innovación en la ejecución de esa estrategia. Esto lleva a las personas a querer resolver muchas cosas en un solo proyecto.
+El líder de innovación debe alinear con los sponsors las expectativas que tiene la organización respecto al proyecto.
+Para evitar estos problemas es importante:
+1. Tener clara la estrategia de negocio
+2. Realizar algunas entrevistas con expertos internos o sponsors
+y 3. Hacer una investigación de las necesidades de los clientes, y establecer los principales dolores del negocio.
+Un último tip que les quiero dejar es vincular el reto del proyecto a algún KPI de la estrategia.
+Con esta información, ustedes podrán establecer ese reto a través de un proceso de empatía con la organización y los clientes. En este módulo encontrarán la matriz de identificación de necesidades, que les ayudará en la definición del reto del proyecto.
+Muchas gracias
+Visita nuestra página www.necesitoinnovar.com
+Suscríbete a nuestro blog Hacker Corporativo
+Paso 2: Conformación del equipo del proyecto.
+La definición del equipo de proyecto es una parte fundamental del proceso de preparación. Muchas veces conformamos un equipo por afinidad o por un vínculo laboral. Pero, ¿Cuáles son las características que tiene que tener un equipo de innovación?
+Los mejores equipos de trabajo son los que se estructuran correctamente, saben comunicarse e interactúan entre sí. Motivación, participación, organización, compromiso, confianza, objetivos comunes y resolución de problemas son las siete características fundamentales del trabajo en equipo.
+Ahora veamos los temas críticos que debemos considerar para formar un equipo de proyecto de innovación.
+1. La primera característica es que las personas tengan que tener conocimiento del segmento de usuarios, su problemática, e inclusive ser parte del contexto, y que preferiblemente sean parte de la cadena de valor del cliente.
+2. Las personas deben saber cuáles son los retos estratégicos del negocio. Muchas veces los jefes de un departamento recomiendan a personas que, no tienen conocimiento de la estrategia de la marca o negocio, no conocen a los segmentos, o inclusive son nuevos en la empresa y quieren integrarlos.
+3. El equipo debe ser multi área, deben ser expertos en diferentes partes del negocio, por ejemplo, conocimiento financiero, en desarrollo de producto, mercadeo, servicio al cliente, etc. Esto nos permitirá conformar un equipo con pensamiento holístico.
+4. Las personas que van a participar deben comprometerse a priorizar el proyecto en su agenda de trabajo. Si la persona no se compromete al 100%, es mejor cambiarla por otra. Es importante también, que la persona ponga en contexto a su jefe para que sepa que dispondrá de tiempo para el proyecto.
+Ahora, un tip adicional es invitar a personas externas a la organización para reforzar el pensamiento divergente. Por ejemplo, si estamos desarrollando un proyecto en el sector de salud, podemos invitar a médicos o personas especialistas en el sector para que sean parte del proyecto.
+Nosotros en Rocket Innovation normalmente invitamos a expertos externos para ampliar la visión del proyecto.
+Las ventajas del trabajo en equipo se obtienen, cuando se ponen en común ideas nuevas y diferentes que aportan mejores soluciones, y cuando el colaborador se siente realizado y es parte importante de ese equipo, todo fluye.
+Recuerden tener una sesión de alineación con los miembros del grupo y sus sponsors, para que todos tengan claro el objetivo del proyecto, el método de trabajo, los recursos, y sus responsabilidades.
+Los quiero invitar a suscribirse a nuestro blog Hacker Corporativo para que tengan acceso gratuito a todo nuestro contenido.
+Nos vemos en el siguiente video.
+Visita nuestra página www.necesitoinnovar.com
+Suscríbete a nuestro blog Hacker Corporativo
+Lectura de Apoyo 1-¿Cómo ir más allá de I+D para buscar valor para el Cliente?
+¿Cómo ir más allá de I+D para buscar valor para el cliente?
+Por Tendayi Viki
+La mayoría de los innovadores están obsesionados con los productos y servicios en los que están trabajando, mucho más obsesionados de lo que deberían estar. He conocido a programadores de software que se entusiasman tanto con los aspectos técnicos de la aplicación que están creando que se olvidan de los usuarios de su software. En las empresas en las que se necesita una amplia I+D antes de lanzar un producto, los científicos están obsesionados con la ciencia. Tienen un enfoque intenso en su investigación que les impide pensar en los clientes y sus necesidades.
+Pero ese enfoque en la tecnología y la I+D no es suficiente para el éxito. En un artículo anterior, escribí sobre por qué el gasto en I+D no es una medida de la innovación. La innovación exitosa requiere la combinación de excelentes productos con modelos comerciales sosteniblemente rentables. En el corazón de la rentabilidad sostenible se encuentra un intercambio de valor entre la empresa y sus clientes. Los innovadores tienen que crear propuestas que satisfagan las necesidades de los clientes de una manera que los clientes estén dispuestos a pagar. Este intercambio de valor está en el corazón de todos los productos y servicios exitosos.
+Lo que nos lleva a un pensamiento interesante. ¿Qué pasaría si la ciencia en I+D estuviera impulsada por la búsqueda de propuestas de valor que resuenen con los clientes? Este tema fue el centro de una conversación que tuve con Pat Verduin, director de tecnología de Colgate, mientras se preparaban para el lanzamiento del nuevo Colgate Total SF. Más allá del gran producto en sí, estaba mucho más interesado en escuchar a Pat sobre las lecciones clave de innovación que Colgate había aprendido y aplicado para tener un proceso de I+D impulsado por la búsqueda de valor para el cliente.
+Asuntos de diversidad
+Las ideas innovadoras requieren la participación de múltiples actores que traen consigo diferentes perspectivas. Los tipos de personas que contrata una empresa importan. Según Pat, “si contratas a las mismas personas, siempre obtendrás las mismas respuestas”. En Colgate ha habido un claro esfuerzo por contratar personas de diferentes orígenes. Estos incluyen dentistas, biólogos, científicos de datos e ingenieros.
+Pat señala que incorporar a estas diversas personas a la organización hace que la empresa comience a pensar de manera diferente sobre los problemas que está abordando. Cambia los ingredientes que la empresa utiliza en los productos. En Colgate, incluso ha cambiado lo que prueban y en lo que se enfocan durante los estudios clínicos. Pat acredita la diversidad en los equipos de Colgate por un enfoque renovado en la salud holística en lugar de solo las caries.
+Las asociaciones también son importantes para el proceso de innovación. Más allá de la diversidad en sus equipos internos, también necesita colaborar con diversos socios externos. “Ya quedaron atrás los días en que las empresas podían trabajar por su cuenta y resolver todos los problemas a los que se enfrentaban”, argumenta Pat con firmeza. “Colaboramos con muchos socios diversos, incluidos nuestros cultivadores de menta”.
+Rompiendo silos
+Una vez que tenga diversos equipos dentro de su empresa, debe romper los silos entre ellos. No hay valor en la diversidad, si el grupo diverso no trabaja en colaboración. Debe existir un estrecho vínculo entre el marketing comercial y la I+D. “Esto requiere que los especialistas en marketing aprendan la ciencia”, dice Pat. “De hecho, hasta llegar al CEO, todos debemos comprender parte de la ciencia involucrada en la fabricación de nuestros productos”.
+Para equilibrar esto, los científicos también deben comprender el lado comercial de los productos que están inventando. De hecho, Pat cree firmemente que los científicos necesitan pasar tiempo en contexto con los clientes. En la mayoría de las empresas, los clientes son tratados como el dominio sagrado de las ventas y el marketing. Esto puede obstaculizar que I+D sea capaz de fabricar excelentes productos que brinden valor.
+Ir al cliente
+Los productos innovadores son la combinación de ciencia y conocimientos. La ciencia por sí misma puede ser muy interesante. Sin embargo, dicha investigación puede llevarlo por muchas vías. La pregunta clave es si las vías que está explorando son importantes para los clientes.
+“Escuchamos”, reflexiona Pat. “Escuchamos mucho”. Con gente sobre el terreno en más de 80 países, los conocimientos son lo que impulsa la I+D en Colgate. “Las necesidades insatisfechas de los clientes impulsan lo que hacemos”, dice Pat. “Esto nos brinda una claridad de objetivos y espacios de oportunidad”. Es en esos espacios donde luego se aplica el proceso de I+D.
+Escuchar no solo implica grandes cuestionarios, sino también ir a las casas de las personas. Y los científicos de I+D están involucrados en salir del edificio y aprender sobre la vida de los clientes. Por ejemplo, una cosa que ha aprendido Colgate es que las personas no siempre se cepillan correctamente con la técnica adecuada. Por lo tanto, los productos que desarrollan aún deben crear valor incluso en este contexto.
+Para estar claros
+Es importante señalar que la I+D sigue siendo una parte muy importante de la innovación. En empresas como Colgate, obtener la I+D correcta es fundamental para el éxito sostenido. Los tipos de productos que fabrica Colgate requieren investigación clínica, que la empresa nunca debería cambiar. Como señala Pat, "las empresas como la nuestra tienen una reputación de marca que proteger".
+También es importante para las grandes empresas equilibrar las necesidades del presente y las necesidades del futuro. Gestionar la innovación para las grandes empresas significa mejorar los productos principales, mientras se exploran nuevas oportunidades de crecimiento. Esta es la razón por la que una empresa como Colgate invertiría en el desarrollo de Colgate Total SF como una mejora de la ya exitosa pasta de dientes Colgate Total. Su éxito final en la innovación se juzgará por la cantidad de nuevos productos y modelos comerciales que inventen más allá de su cartera de productos principal.
+Fuente: https://www.forbes.com/sites/tendayiviki/2019/02/24/moving-beyond-rd-to-search-for-customer-value/?sh=126b86be537a
+Paso 3: Preparación de la información para el proyecto.
+Hola de nuevo, espero que estén disfrutando el proceso de introducción al Agile Innovation Process. Recuerden que en Rocket Innovation hemos diseñado este proceso para que logren ejecutar con éxito sus proyectos de innovación.
+Algo que es crítico y va a definir la ruta de éxito de tu proyecto es la información de preparación para seleccionar el reto. Muchas veces los proyectos de innovación inician por urgencia del negocio, o porque lo solicitó un directivo, sin embargo, para que la innovación impacte en la estrategia de negocio debemos hacer un trabajo de entendimiento inicial, para definir que vamos a buscar resolver.
+Veamos algunas recomendaciones para este proceso de preparación.
+Para realizar este entendimiento debemos ejecutar cuatro actividades:
+1. Entrevistas de entendimiento de las expectativas del negocio. Este tipo de entrevistas busca generar un entendimiento profundo de los retos de la organización respecto a un objetivo estratégico. Pongamos como ejemplo, una empresa de consumo masivo que quiere desarrollar un producto para un segmento específico, lo primero que tenemos que hacer es hablar con algunas personas que tengan relación directa con el objetivo para entender su visión de negocio, y las oportunidades de ejecución. Esto nos dará un marco de referencia de por dónde empezar.
+Pueden realizar de 5 a 7 entrevistas de 20 a 30 minutos cada una, con personas de distintas áreas que tengan relación con el objetivo, y es importante hacer un guion con preguntas de qué es lo que queremos averiguar.
+2. Revisión de la calidad de información con la que contamos. La calidad de la información puede definir el destino del proyecto, por eso debemos hacer un Desk Research o investigación de escritorio para ver que insights podemos encontrar que nos permitan formular el reto.
+Pueden utilizar información cualitativa y cuantitativa, también datos demográficos, reportes de servicio al cliente, desempeño de lanzamientos anteriores, reportes de campañas o tendencias, etc. Toda esta información nos va a servir para reforzar el marco de referencia.
+3. Entrevistas con clientes y no clientes. Muchas veces nuestras responsabilidades como líderes de innovación, hacen que no podamos tener tiempo para estar en constante contacto con los segmentos, sin embargo, eso lo tenemos que cambiar. En Rocket Innovation somos fieles creyentes de que un líder de innovación debe conocer de pies a cabeza a los usuarios. Realizar algunas entrevistas con usuarios o no usuarios nos va a ayudar en la definición de los segmentos prioritarios.
+Los segmentos prioritarios son aquellos segmentos con los cuáles vamos a iniciar la fase de descubrimiento. Me voy a adelantar a la fase, pero creo que es algo crítico. Uno de los errores comunes en un proyecto de innovación es mezclar segmentos o no saber segmentar tu audiencia. Esto hace que no podamos acotar el insight, y caemos en los errores que mencionaba Andrés de tener retos muy amplios o ambiguos.
+Para las entrevistas con usuarios deben, al igual que con los expertos internos, contar con un guion que les permita tener una conversación amena con ellos. Después de 5 entrevistas ustedes tendrán claro algunos de los patrones de comportamiento.
+Y, por último, tenemos la alineación con el equipo de las conclusiones y requerimientos para la etapa de descubrimiento. Una vez terminada la recolección de la información es importante hacer una sesión de preparación del proyecto con el equipo donde vamos a hacer el encuadre estratégico. Esta junta puede ser de 2 a 3 horas.
+Algunas preguntas que se tienen que hacer en esta sesión son:
+1. ¿Tenemos claro el objetivo estratégico del proyecto?
+2. ¿Podemos definir los segmentos prioritarios para iniciar?
+3. ¿Están claros los retos del negocio en este proyecto?
+4. ¿Tenemos la información suficiente para la fase de descubrimiento o qué información adicional necesitamos?
+y 5. ¿El equipo tiene clara la ruta de ejecución del proyecto?
+En el siguiente video Andrés explicará cómo se tiene que redactar el reto del proyecto.
+Visita nuestra página www.necesitoinnovar.com
+Suscríbete a nuestro blog Hacker Corporativo
+Matriz de Entendimiento de Necesidades
+Matriz de Entendimiento de Necesidades.
+En el siguiente documento encontrará los pasos para realizar la sesión de aprendizajes de cara a la definición del reto del proyecto. Estos pasos son tres y deben realizarse en una sesión de trabajo con el equipo de proyecto.
+
+TIP: Es una buena práctica escribir un párrafo introductorio antes de proporcionar los aprendizajes. En este párrafo, explique a los miembros del equipo por qué deberían molestarse con el proyecto, qué problema(s) está tratando de resolver, quién enfrenta los problemas y por qué las soluciones actuales, si las hay, no abordan el problema adecuadamente.
+
+Los pasos del ejercicio son:
+
+Mapa de necesidades: el mapa de necesidades permite al equipo, materializar todos los aprendizajes del proceso de investigación como, por ejemplo, las entrevistas con colaboradores y usuarios, el Desk Research, y las conversaciones con los sponsors.
+Priorización de necesidades: en el segundo ejercicio el equipo de proyecto debe priorizar las necesidades, pueden votar de forma individual por las necesidades y luego hacer el ejercicio, esto ayuda al equipo a estar alineados y generar discusiones objetivas con base en los aprendizajes.
+Matriz de necesidades: esta matriz ayuda al equipo a definir cuáles son las necesidades estratégicas de cara al negocio. Esto es importante porque muchas veces los equipos de innovación seleccionan necesidades del usuario que no tienen nada que ver con la estrategia del negocio. En este caso estamos buscando las necesidades que se ubican en el cuadrante superior derecho, estas son las que tienen más relevancia para el usuario y negocio.
+Todas las herramientas de Rocket Innovation tienen como objetivo simplificar y agilizar el proceso de aprendizaje del proyecto.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+Paso 4 ¿Cómo redactar el reto del proyecto?
+
+Gracias Melissa por esa increíble explicación del paso de preparación de información.
+
+Definir objetivos o retos de los proyectos de innovación, es una de las tareas que ponen en jaque a los líderes de innovación, ya que en ocasiones es difícil saber cómo identificarlos. Por eso, es importante realizar los pasos que Melissa les explicó.
+
+Para la redacción del reto del proyecto utilizaremos el método SMART. Los objetivos SMART son los puntos donde una empresa quiere llegar de forma estratégica; es decir, son objetivos específicos, medibles, alcanzables, relevantes y a tiempo. Estos criterios te ayudan a distinguir los objetivos eficaces de los que no lo son
+
+Ejemplo de un objetivo SMART
+
+
+Dentro de sus beneficios están que determinan las prioridades y acotan el reto de innovación, permiten que los resultados del proyecto sean medibles, y sirven como una guía para el crecimiento de la empresa.
+
+Para su redacción pueden usar la técnica de iniciar con un ¿Cómo podríamos?, por ejemplo: ¿Cómo podríamos incrementar la penetración un 10% en el segmento veganos en 24 meses?, ¿Cómo podríamos disminuir los tiempos de respuesta de servicio al cliente en un 50% en 12 meses?, y así sucesivamente.
+
+Otra técnica que pueden usar es que cada miembro del equipo redacte su objetivo de forma individual, luego expondrán ese reto al resto y se le asignará a cada uno 2 votos para seleccionar el mejor. Ese reto será la base para la redacción final. Esto ayudará a que todos estén alineados y que este no sea una imposición.
+
+
+
+Veamos ahora las características SMART.
+
+La primera característica es que tiene que ser Específico.
+
+Tu objetivo debe ser claro y específico, de lo contrario no podrás concentrar tus esfuerzos o sentirte realmente motivado para lograrlo. Al redactar su objetivo, intenta responder estas cinco preguntas:
+
+1. ¿Qué quiero lograr?
+
+2. ¿Por qué es importante este objetivo?
+
+3. ¿Quién está involucrado?
+
+4. ¿Dónde está ubicado?
+
+5. ¿Qué recursos o límites están involucrados?
+
+La segunda característica es que tiene que ser Medible.
+
+Es importante tener objetivos medibles, para que pueda realizar un seguimiento de su progreso y mantenerse motivado. Evaluar el progreso lo ayuda a mantenerse enfocado, cumplir con los plazos y sentir la emoción de estar más cerca de lograr su objetivo.
+
+Una meta medible debe abordar preguntas como:
+
+1. ¿Cuánto cuesta?
+
+2. ¿Cuántos?
+
+3. ¿Cómo sabré cuándo se ha logrado?
+
+Tercera característica, Alcanzable.
+
+Su objetivo también debe ser realista y alcanzable para tener éxito. En otras palabras, debería ampliar sus habilidades, pero seguir siendo posible. Cuando establece una meta alcanzable, es posible que pueda identificar oportunidades o recursos que antes se pasaron por alto y que pueden acercarlo a ella.
+
+Una meta alcanzable generalmente responderá preguntas como:
+
+1. ¿Cómo puedo lograr este objetivo?
+
+y 2. ¿Qué tan realista es la meta, con base en otras limitaciones?
+
+Cuatro, Relevante.
+
+Este paso se trata de asegurarse de que su objetivo le importe y que también este alineado con otros objetivos relevantes. Todos necesitamos apoyo y asistencia para lograr nuestros objetivos, pero es importante mantener el control sobre ellos. Por lo tanto, asegúrese de que sus planes impulsen a todos hacia adelante, pero que siga siendo responsable de lograr su propio objetivo.
+
+Un objetivo relevante puede responder "sí" a estas preguntas:
+
+1. ¿Esto parece valer la pena?
+
+2. ¿Coincide esto con nuestras otras necesidades?
+
+3. ¿Somos el equipo adecuado para alcanzar este objetivo?
+
+4. ¿Es aplicable en el entorno socioeconómico actual?
+
+Por último, tenemos el límite de Tiempo.
+
+Cada objetivo necesita una fecha objetivo, de modo que tenga una fecha límite en la que concentrarse y algo por lo que trabajar. Esta parte de los criterios de objetivos SMART, ayuda a evitar que las tareas cotidianas tengan prioridad sobre sus objetivos a más largo plazo.
+
+Un objetivo con límite de tiempo generalmente responderá a estas preguntas:
+
+1. ¿Cuándo?
+
+2. ¿Qué puedo hacer dentro de seis meses?
+
+3. ¿Qué puedo hacer dentro de seis semanas?
+
+4. ¿Qué puedo hacer hoy?
+
+Para cerrar este video, solo quiero recordarles que la definición del reto de innovación debe hacerse en equipo, todos los miembros del proyecto e inclusive los sponsors deben estar alineados con este. De lo contrario, correremos el riesgo de tener bajo compromiso durante la ejecución del proyecto.
+
+Nos vemos luego, mucha suerte.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Descarga la Matriz de definición del Reto de Innovación en el siguiente link.
+
+Lectura de Apoyo 2 -La forma en que defina el Problema determina si lo resuelve.
+La forma en que defina el Problema determina si lo resuelve.
+por Art Markman
+
+Resumen.   
+
+Puede parecer que las nuevas innovaciones surgen de la nada. ¿Cómo puede tanta gente haber perdido la solución al problema durante tanto tiempo? ¿Y cómo diablos se le ocurrió esa solución a la primera persona? De hecho, la mayoría de las personas que idean soluciones creativas se basan en un método relativamente sencillo: encontrar una solución en la memoria colectiva de las personas que trabajan en el problema. Es decir, alguien que trabaja para resolver el problema sabe algo que le ayudará a encontrar una solución, pero aún no se ha dado cuenta de que lo sabe. Al resolver problemas de forma creativa, declaración formulación del problema es la señal de memoria. Eso es lo que llega a la memoria y extrae la información relacionada. Para generar una variedad de soluciones posibles a un problema, el solucionador de problemas (o el grupo) puede cambiar la descripción del problema de manera que se extraiga nueva información de la memoria. Las personas y los grupos más creativos son los que encuentran muchas formas diferentes de describir el problema que se está resolviendo.
+
+Las historias típicas de creatividad e invención se centran en encontrar formas novedosas de resolver problemas. James Dyson encontró la manera de adaptar el ciclón industrial a eliminar la bolsa en una aspiradora. Pablo Picasso y Georges Braque cubismo desarrollado como técnica para incluir varias vistas de una escena en el mismo cuadro. El sistema operativo de escritorio desarrollado en Xerox PARC reemplazó los comandos del ordenador con una interfaz de usuario espacial.
+
+Todas estas breves descripciones de estas innovaciones se centran principalmente en la novedosa solución. El problema que resuelven parece obvio.
+
+Pero enmarcar las innovaciones de esta manera hace que la creatividad parezca un misterio. ¿Cómo puede tanta gente haber perdido la solución al problema durante tanto tiempo? ¿Y cómo diablos se le ocurrió esa solución a la primera persona?
+
+De hecho, la mayoría de las personas que encuentran soluciones creativas a los problemas se basan en un método relativamente sencillo: encontrar una solución dentro de la memoria colectiva de las personas que trabajan en el problema. Es decir, alguien que trabaja para resolver el problema sabe algo que le ayudará a encontrar una solución, pero aún no se ha dado cuenta de que lo sabe.
+
+Claro, algunas personas tropiezan con la respuesta. Cuando Arquímedes entró en la bañera y notó el aumento del nivel del agua, tuvo suerte en la solución para encontrar el volumen de una corona decorada con adornos. Y otros invierten décadas y millones (o incluso miles de millones) de dólares en investigación y desarrollo (consulte las compañías farmacéuticas). Pero aprovechar la memoria del individuo o del grupo es uno de los enfoques de resolución de problemas más rentables y repetibles.
+
+La clave de este método es sacar la información correcta de la memoria para resolver el problema.
+
+La memoria humana está configurada de tal manera que encontrar una información sirve como señal para recuperar otras cosas relacionadas. Si le pido que imagine una fiesta de cumpleaños, puede recuperar rápidamente información sobre las fiestas de cumpleaños a las que ha asistido y es probable que pueda pensar en sombreros de fiesta, pasteles y cantar «Happy Birthday». No tiene que hacer mucho esfuerzo para recuperar esta información; surge como resultado de la señal inicial.
+
+Si quiere recuperar algo más de la memoria, tiene que cambiar la entrada. Si ahora le pido que piense en la ensalada, ya me puede llamar para obtener información sobre lechuga, tomates y aliños, a pesar de que estaba pensando en las fiestas de cumpleaños hace solo un minuto.
+
+Al resolver problemas de forma creativa, declaración formulación del problema es la señal de memoria. Eso es lo que llega a la memoria y extrae la información relacionada.
+
+Para generar diversas soluciones posibles a un problema, el solucionador de problemas (o el grupo) puede cambiar la descripción del problema de manera que se extraiga nueva información de la memoria.
+
+Por ejemplo, es difícil ver cómo Dyson habría llegado a los ciclones industriales pensando en las bolsas de las aspiradoras. Pero una forma alternativa de describir el problema es que una aspiradora absorbe una combinación de suciedad y aire y tiene que separar la suciedad del aire. Las bolsas hacen esto actuando como un filtro que atrapa la suciedad y deja que el aire pase a través de los poros de la bolsa. Pero hay muchas formas de separar las partículas del aire. Los ciclones industriales crean una masa de aire giratoria que arroja partículas a los bordes por la fuerza centrífuga.
+
+Esta forma de describir un vacío es que generaliza el problema eliminando algunos de los componentes específicos que se utilizan normalmente para resolverlo. La frase «separar la suciedad del aire» no menciona la bolsa en absoluto. Cuando se centre en el bolso, naturalmente se le recordarán aspectos del bolso. La gran lista de números de patente en la mayoría de las bolsas de aspiradoras sugiere que muchos inventores lo han hecho. Sin embargo, una solución radicalmente nueva para un problema requiere una nueva declaración de problema.
+
+Entonces, ¿cómo crea la declaración del problema que necesita para encontrar una solución a su problema empresarial? Desafortunadamente, no hay una declaración de problema ideal. En cambio, las personas y los grupos más creativos son los que encuentran muchas formas diferentes de describir el problema que se está resolviendo. Algunas de esas afirmaciones serán específicas y hablarán sobre los objetos sobre los que se actúa (por ejemplo, las bolsas de aspiradora).
+
+Eso lleva a la recuperación de información específica que está muy relacionada con el problema (por ejemplo, diferentes tipos de bolsas de vacío). Entonces, los grupos deberían encontrar varias formas de describir la esencia del problema que se está resolviendo, centrándose en las relaciones entre los objetos o una descripción más abstracta del objetivo (por ejemplo, separar la suciedad del aire). Cada una de estas descripciones ayudará a los usuarios a recordar conocimientos que están más distantemente relacionados con el dominio en el que se plantea el problema.
+
+La mayoría de nosotros hemos buscado en el lugar equivocado nuestros conocimientos creativos. Le pedimos a la gente que «piense de manera innovadora», pero deberíamos pedirle a la gente que busque más descripciones de la caja y vea lo que nos hace recordar.
+
+Fuente: https://hbr.org/2017/06/how-you-define-the-problem-determines-whether-you-solve-it?language=es
+
+
+Introducción a la etapa de Descubrimiento
+
+Bienvenidos a la etapa de Descubrimiento del Cliente.
+
+Recordemos que el Ciclo de Desarrollo de Clientes es un modelo ágil diseñado en 4 etapas, para resolver de forma estructurada el camino de una idea hasta convertirse en una propuesta de valor.
+
+
+
+La primera etapa es el Descubrimiento del Cliente, que recoge la visión del producto o modelo de negocio, y la convierte en una serie de hipótesis. Es una etapa donde tenemos únicamente una idea, y se desarrolla un plan de experimentos para poner a prueba las reacciones de los usuarios, y saber o definir bien quién es y será tu verdadero cliente.
+
+Como menciona Steve Blank en su libro, de todas las lecciones del desarrollo del cliente, salir a la calle y establecer conversaciones con los usuarios es algo crítico.
+
+Una de las cosas que le pasa frecuentemente al equipo de Rocket Innovation, es que cuando va a iniciar un proyecto con un cliente, este no tiene claro quién es su usuario potencial. No se trata de recopilar listas de características de los clientes potenciales o de realizar grupos de discusión. En esta etapa desarrollaremos un proceso de co creación constante con el cliente a través de una secuencia de pasos.
+
+El Descubrimiento del Cliente incluye dos fases fuera de la oficina, en la calle. La primera trata de comprobar la percepción que tiene el cliente del problema y su necesidad de resolverlo. La segunda fase muestra el producto por primera vez a los clientes a través de un prototipo. El objetivo es recolectar información acerca de la percepción de valor de un cliente, para luego crear la primera versión de producto que podamos poner nosotros en el mercado.
+
+Como decimos en Rocket Innovation, con estas dos etapas buscamos entender el concepto de Problem-Solution Fit, contestando dos preguntas:
+
+1. ¿Existe una necesidad o problema escalable del cliente o no cliente que podamos resolver?
+
+y 2. ¿Cuál debería ser la propuesta de valor inicial para comprobar su potencial?
+
+Si no tenemos la respuesta a estas preguntas, es poco probable que la solución que queremos desarrollar vaya a tener éxito.
+
+Por último, es importante alinear con los sponsors y el equipo de proyecto, cuál va a ser la estructura de ejecución de esta etapa. Deben tener visibilidad de que es una etapa de entendimiento y aprendizajes, que pueden generar muchos cambios dado el nivel de incertidumbre, inclusive en el reto de negocio.
+
+En el siguiente video hablaremos de la preparación de la semana de exploración.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Preparación de la Semana de Descubrimiento.
+
+Antes de iniciar la ejecución de la etapa de Descubrimiento, es importante mencionar que, aunque en Rocket Innovation ejecutamos esta etapa en pocos días, los tiempos van a depender de la agenda de cada organización y el tamaño del reto.
+
+La preparación de la semana es fundamental porque dependiendo de la calidad de información, y la claridad del objetivo de negocio, se definirá si la ejecución será un éxito o no. Es por eso que debemos hacer una agenda de trabajo, para que todos sepamos que vamos a hacer.
+
+También es clave definir el Moderador o como le llamamos nosotros el director de la orquesta, quién será la persona responsable de guiar al equipo. Adicional al moderador, es importante contar con un Decisor. El Decisor es la persona con mayor conocimiento del reto del proyecto, y será la encargada de desempatar cuando haya decisiones difíciles para el equipo.
+
+La semana se va a estructurar en 9 pasos, donde el equipo de proyecto debe participar de forma integral. Es una semana intensa, por eso, es importante que las personas prioricen las actividades en su agenda de trabajo.
+
+Veamos ahora una breve descripción de cada uno de los pasos.
+
+Los cuatro primeros pasos de la etapa de Descubrimiento son:
+
+1. El entendimiento de las necesidades de los usuarios.
+
+2. Las entrevistas con expertos.
+
+3. La generación de las ideas.
+
+4. Mapa de Experiencia del Usuario.
+
+El Entendimiento de las Necesidades es una fase de exploración, donde recolectaremos información de diferentes fuentes para tener una comprensión profunda del usuario. Las Entrevistas con Expertos son exploraciones con personas que tienen un conocimiento amplio del usuario y su entorno.
+
+El tercer paso es la Generación de las Ideas, donde traduciremos toda la información en posibilidades.
+
+Luego haremos el Mapa de Experiencia del Usuario, este es una herramienta que nos permite integrar los patrones de comportamiento del usuario, en una secuencia para identificar las oportunidades.
+
+Antes de ver los pasos del 5 al 8, es importante mencionar que ustedes tendrán un check point con su mentor, para evacuar dudas y validar lo hecho hasta el paso 4. Recuerden que deben programar esta sesión en la plataforma.
+
+Regresando al método, como paso número 5 tenemos la Definición del Reto de Diseño. Éste es un objetivo SMART que resume todo el proceso de aprendizaje con el usuario.
+
+En el paso 6 tenemos la Inspiración, donde desarrollaremos un proceso creativo a través de la búsqueda de estímulos para resolver ese objetivo.
+
+Luego viene uno de mis pasos favoritos, el Diseño del Prototipo. Un prototipo es una herramienta creativa, que nos permite validar la percepción de valor que tiene un usuario respecto a una posible solución.
+
+Y como paso número 8 tenemos la Validación con Usuarios, donde recolectaremos toda la retroalimentación del cliente respecto a la propuesta de valor que estamos visualizando. Para cerrar la Etapa de Descubrimiento tenemos el paso 9, el Pitch del Proyecto. Lo que queremos aquí es que el líder del proyecto y su equipo, puedan tener una sesión con los espónsores de la organización para presentar las conclusiones de esta etapa.
+
+Veremos más adelante a nivel de detalle cada uno de los pasos, pero es importante recordarles, que tienen asignadas una serie de horas con su mentor para ejecutar cada uno de ellos.
+
+Melissa estará con ustedes en los siguientes videos. Nos vemos luego.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Paso 1: Entendimiento de las Necesidades del Usuario.
+
+Es hora de ponernos manos a la obra. Uno de los grandes retos que tienen todas las organizaciones se resume en una pregunta, ¿Qué es lo que quieren mis clientes? Sin embargo, no es fácil adivinarlo.
+
+El entendimiento de las Necesidades del Cliente requiere de una serie de herramientas de recolección de información, que nos permitan identificar patrones emocionales y racionales del comportamiento de las personas.
+
+
+
+Este comportamiento puede ser en presencia de un producto o en ausencia del mismo. Lo que buscamos es identificar los patrones en un grupo de terminado de personas. Un patrón es una secuencia de hechos repetitivos, este concepto es muy importante porque a los equipos de proyecto les cuesta mucho diferenciar un patrón de una declaración de usuario.
+
+Pongamos el ejemplo de una pizzería.
+
+Resulta ser que Andrés es dueño de un restaurante de pizzas y quiere lanzar una nueva receta a base de harina de coliflor, y lo que quiere Andrés es captar el segmento Keto, para esto él necesita identificar los patrones de alimentación de este grupo de personas para ver si la necesidad tiene potencial.
+
+Si uno de cada 10 clientes de Andrés es Keto, claramente la necesidad no tiene potencial de escala, pero sí, por el contrario, 4 de cada 10 sí pertenecen al segmento estamos hablando de un 40% que puede adquirir el producto.
+
+Este ejemplo nos permite aclarar algo que hemos vivido en Rocket Innovation. Muchas veces le damos el mismo nivel de importancia a todas las necesidades, pero estas no tienen el mismo potencial de negocio.
+
+Ahora bien, para lograr identificar los patrones, necesitamos de varias fuentes de información confiables. Veamos algunas de ellas.
+
+
+
+Hoy día, la digitalización nos permite tener acceso a casi cualquier persona en cualquier parte del mundo. Esto ha vuelto las redes sociales un canal fundamental para recolectar información de nuestros segmentos.
+
+En Rocket Innovation, utilizamos muchas herramientas para lograr el entendimiento de las necesidades de los usuarios. Pero también, hay algunas viejitas que siguen siendo de mucho impacto, por ejemplo, la entrevista etnográfica.
+
+Ésta busca identificar diferentes tipos de necesidades a través de la comunicación directa con el usuario. También permite definir los tipos de segmentos de usuarios o no usuarios del negocio.
+
+Debe ser una conversación amena donde el entrevistador debe poner en contexto las preguntas que va a hacer. Es importante tener Empatía con la persona para que haya confianza y pueda exponer sus opiniones de forma abierta.
+
+Un tip importante es crear un guion de preguntas que nos permitan establecer afinidad con la persona, para que haya confianza y apertura. Una entrevista puede durar entre 20 y 30 minutos dependiendo de su desarrollo.
+
+La segunda herramienta son las Comunidades Online, ustedes como equipo de proyecto, pueden gestionar comunidades para tener conversaciones acerca de temas específicos. Por ejemplo, pueden lanzar una pregunta en la comunidad para recolectar información de valor de cara al reto del proyecto. Estas conversaciones no deben durar más de una o dos semanas, pues los temas pierden relevancia rápidamente.
+
+La tercera herramienta son las Video Etnografías. Ustedes a través de plataformas digitales de comunicación pueden pedirles a los usuarios, que graben sus experiencias en un contexto específico, por ejemplo, adquiriendo un servicio bancario, esto nos dará información valiosa de la experiencia del usuario. Así tendremos evidencias directas y no declaradas, de cómo los usuarios resuelven sus necesidades de forma natural.
+
+Y, por último, pero no menos importante tenemos el Social Listening. Normalmente se le conoce como una técnica que permite a las empresas conocer todo aquello que se habla de su marca en redes sociales a través de diferentes herramientas de monitorización.
+
+Su función principal es medir la efectividad y la frecuencia de aquello que se dice de nuestra marca en los distintos medios sociales, y evaluar el impacto que tienen esas conversaciones en la reputación. Pero también podemos introducir elementos en la comunicación que nos permitan identificar conversaciones relevantes sin presencia de la marca.
+
+Todas estas herramientas ustedes pueden utilizarlas en sus proyectos, pero no debemos exceder el tiempo de ejecución, en pocos días ustedes pueden obtener información de gran ayuda para el reto de innovación.
+
+En esta fase de entendimiento debemos tener información de forma ágil. No realicemos estudios muy grandes que nos puedan tomar meses. Podemos tener entre 7 y 9 entrevistas con usuarios, o crear comunidades de 10 a 15 personas. La fase de descubrimiento no debería tomarnos más de dos semanas.
+
+Por último, para ayudarlos con la identificación de los patrones, en Rocket Innovation hemos diseñado una matriz de entendimiento, que les ayudará a sintetizar la información.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+
+Lectura de Apoyo 1 -El error más grande en las entrevistas con los clientes.
+El error más grande en las entrevistas con los clientes: confundir las opiniones con los hechos.
+Por Alexander Osterwalder
+
+Las entrevistas con los clientes son una excelente técnica para obtener de forma rápida y económica información temprana sobre los clientes. Sin embargo, muchos de los ejecutivos con los que trabajamos cometen un error peligroso: confunden las opiniones de los clientes con hechos concretos. Nosotros explicamos.
+
+Es extremadamente fácil que las entrevistas con sus clientes se desvíen por el camino equivocado si no presta atención a la diferencia entre opinión y hecho. Las personas que no están capacitadas para hacer un buen descubrimiento de clientes comenzarán inmediatamente a hacer preguntas a los sujetos de la entrevista como "¿Le gusta esta idea?", "¿Qué solución prefiere?", "¿Compraría esto?". Estas preguntas solicitarán opiniones. Sin embargo, la experiencia demuestra que la gente rara vez hace lo que dice.
+
+En su lugar, sus preguntas deben buscar hechos concretos. Por ejemplo, no preguntes, “¿Cuál crees que es el desafío?”. En su lugar, puede preguntar: "¿Cuándo fue la última vez que luchó con este desafío en particular?", "¿Puede describir con qué estaba luchando, la última vez que enfrentó este desafío" o "¿Cuándo fue la última vez que buscó una solución en Google?" para este problema en particular?”.
+
+Otro error común que hemos visto que la gente comete en las entrevistas con los clientes es que están satisfechos con evidencia superficial cuando piden hechos. Su tarea en una entrevista de descubrimiento de clientes es profundizar y descubrir gemas ocultas. Busque evidencia cuantitativa (e instancias concretas) tanto como sea posible. Por ejemplo, pregunte "¿Por qué es un desafío tan grande?", "¿Cómo mide concretamente el éxito o el fracaso relacionado con este desafío?". Cuando un entrevistado dice "Necesito una solución más rápida", inmediatamente pregunte "¿cuánto más rápido?" y “¿cuál es la mejora mínima que aún califica como éxito?”. ¿Cómo puede juzgar si su solución crea valor para el cliente, si no puede cuantificar cómo sus clientes miden el éxito y el fracaso?
+
+Cuando no tenga sentido pedir métricas cuantitativas, busque instancias concretas para medir el éxito y/o el fracaso. Recuerdo haber ayudado a la agencia de turismo de una nación del Golfo a realizar entrevistas de descubrimiento de clientes. Para comprender cómo los visitantes de su país califican un viaje como una experiencia única, preguntarían "Cuénteme la última vez que tuvo una experiencia única" y "¿qué hizo que esa experiencia fuera única?". Esta línea de preguntas proporciona evidencia mucho más sólida que si hubieran preguntado "¿Cómo crees que es una gran experiencia?".
+
+Pedir opiniones en lugar de hechos es el error más grande en las entrevistas de descubrimiento de clientes. Esto es un problema porque implementar una nueva idea basada en las opiniones de las personas suele ser un camino peligroso. No disminuye tanto el riesgo de una nueva idea como la investigación de los hechos. Perseguir algo que se basa en evidencia del pasado es mucho mejor, incluso si su solución hace algo nuevo. Su tarea es conectar el nuevo comportamiento con la evidencia del pasado. La evidencia del pasado indica fuertemente el comportamiento futuro.
+
+
+Paso 2: Entrevistas con Expertos.
+
+El paso 2 es una técnica muy sencilla pero muy poderosa.
+
+La Entrevista con Expertos.
+
+La entrevista con expertos busca recolectar información de todos los aprendizajes, que tuvo el equipo durante el entendimiento de las necesidades de los clientes. También plasma la visión de cada uno de los miembros respecto a los posibles caminos para solucionar la necesidad.
+
+Para realizar este ejercicio deben preparar una sesión de al menos 4 horas, pues realizaremos una serie de actividades para priorizar los aprendizajes. En caso de ser presencial, es importante contar con materiales como hojas o post-its.
+
+Antes de iniciar las presentaciones, tomaremos 15 minutos para que todo el equipo pueda preparar su presentación. Pueden usar material de apoyo que les ayude a explicar sus ideas.
+
+La entrevista debe durar entre 15 y 20 minutos. Durante la exposición el resto del equipo va a escuchar y tomar notas de todos los datos relevantes que comparten los compañeros.
+
+En la exposición podemos plantear preguntas puntuales levantando las manos, pero no podemos emitir criterios personales mientras el experto expone, pues puede desviar la atención del grupo. Por eso, es fundamental que el equipo este tomando nota de forma individual, para recolectar toda la información posible, y evitar que caigamos en parálisis por análisis.
+
+Algunas preguntas que se puede hacer el experto para preparar su exposición son:
+
+1. ¿Cuáles fueron mis principales aprendizajes del entendimiento del usuario?
+
+2. ¿Qué patrones de comportamiento identifiqué en los diferentes segmentos de usuarios?
+
+3. ¿Qué otro tipo de información sustenta los hallazgos?
+
+y 4. ¿Cómo visualizo los posibles caminos para generar valor al usuario?
+
+Por último, este ejercicio es individual pues buscamos recolectar toda la información posible desde diferentes puntos de vista.
+
+En el siguiente paso veremos como estructurar esta información y simplificarla.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+
+Paso 3: Generación de las Ideas.
+
+Después de que hemos finalizado las entrevistas con expertos vamos a realizar el paso 3, la Generación de las Ideas.
+
+Para esto, vamos a convertir todas nuestras anotaciones en posibilidades a través de una pregunta provocadora. Ésta será: ¿Cómo podríamos?
+
+Este ejercicio lo que permite es tomar un insight y convertirlo en algo accionable. El objetivo principal es procesar toda la información del ejercicio previo y organizarla en ideas.
+
+Veamos un ejemplo de cómo se redacta un cómo podríamos.
+
+Retomemos el ejemplo del caso de la pizzería.
+
+Andrés hizo el ejercicio de entrevista con expertos con las personas que trabajan en el restaurante, y dentro de las observaciones escribió, que los clientes veganos querían saber el origen de los ingredientes.
+
+Entonces Andrés tomó esa información y la convirtió en: ¿Cómo podríamos diseñar una solución visual para que los clientes sepan el origen de los productos?
+
+Como pueden observar, pasamos de una evidencia a una posibilidad con solo agregar una pregunta provocadora.
+
+Esto es lo que queremos que hagan con cada una de sus evidencias.
+
+Esta actividad podría tomarnos 60 minutos y debemos hacerlo de forma individual, si la sesión es presencial debemos escribir los ¿Cómo podríamos? en post-its.
+
+Cuando todos tengamos listos nuestros post-its vamos a leerlos en voz alta 1 por 1, y lo pegaremos en una pared o pizarra. Lo que queremos lograr es que todos los miembros del equipo sepan todas las posibilidades que generamos.
+
+Seguidamente cuando todos hemos pegado nuestros post-its, otorgaremos 5 votos por persona para que en silencio voten por los ¿Cómo podríamos? que creen tienen más potencial para resolver el reto del proyecto.
+
+Algo que les recomiendo es tener presente en una hoja el reto del proyecto, para que el equipo recuerde que está resolviendo.
+
+Después de que todos hemos votado, vamos a organizar de mayor a menor cantidad de votos todos los ¿Cómo podríamos? de arriba hacia abajo. Así filtraremos todas las ideas y nos quedaremos con las más importantes.
+
+Por último, es importante que el moderador repase con el equipo los ¿Cómo podríamos? con más cantidad de votos.
+
+El siguiente paso será integrar todo este conocimiento en el Mapa de Experiencia de Usuario.
+
+Nos vemos luego.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Paso 4: Mapa de la Experiencia del Cliente.
+
+Estamos llegando a la mitad de la etapa de Descubrimiento del Cliente, y en este punto ya deberíamos tener claro cuáles son las principales oportunidades dentro de la experiencia del usuario.
+
+Para organizar y estructurar toda esa información vamos a usar una herramienta que se llama el Mapa de Experiencia del Usuario.
+
+Un Mapa de Experiencia del Usuario, también llamado “Customer Journey”, es una representación visual del recorrido del usuario a través de una serie de actividades para lograr un objetivo.
+
+El Mapa de Experiencia del Usuario cuenta la historia de una necesidad desde el punto de vista de la persona, lo que nos ayuda a entender mejor qué podemos aportarle en cada paso del camino.
+
+
+
+Su utilidad se basa en el poder del storytelling para aportar a las empresas información valiosa sobre cómo crear productos o servicios que resuelvan sus necesidades.
+
+Para lograr este objetivo, un mapa del usuario debe seguir la siguiente estructura.
+
+1. Los eventos que influyen en la necesidad y que pueden ocurrir antes, durante y después de que el usuario interactúe con el producto o servicio.
+
+2. Los canales en los que tienen lugar los puntos de contacto con el cliente.
+
+3. Las acciones realizadas por el usuario.
+
+4. Las motivaciones que impulsan al usuario a seguir avanzando en el customer journey.
+
+5. Las dudas del usuario sobre cada paso.
+
+y 6. Los puntos críticos u obstáculos que impiden al usuario seguir avanzando.
+
+El objetivo principal del equipo debe ser desglosar cada uno de los pasos que realiza un usuario, para identificar donde se crea valor o por el contrario donde se destruye.
+
+Pero para esto debemos tener claro tres temas muy relevantes:
+
+A. Definir el usuario prioritario, y no mezclar segmentos. Cada segmento debe tener su mapa.
+
+B. Definir el objetivo del mapa, por ejemplo, ¿A qué objetivos estás dirigiendo este mapa? ¿De quién se trata específicamente? ¿En qué experiencia se basa?
+
+C. Incluyan las emociones y motivaciones, no se enfoquen únicamente en pasos transaccionales.
+
+En la herramienta que hemos diseñado en Rocket Innovation podrán crear de forma fácil el Mapa de Experiencia del Usuario.
+
+Después de tener el Mapa listo, no olviden tener la sesión con su Mentor para revisar sus avances.
+
+
+El Customer Journey Map es una herramienta que nos va a permitir estructurar toda la información del usuario.
+
+La Matriz que usamos en Rocket Innovation tiene cuatro ejes principales, sin embargo, en internet podrán encontrar múltiples tipos de este ejercicio.
+
+Para empezar, lo primero que debemos hacer es identificar las Fases de la experiencia del cliente, estas son las etapas principales de la experiencia. Por ejemplo, Andrés quiere hacer la compra semanal del supermercado y lo primero que hace es la lista de compras, esta es la primera fase de su experiencia.
+
+El segundo paso es definir las Acciones que ocurren dentro de esa fase, estas son acciones específicas, por ejemplo, regresando al caso de las compras, las acciones pueden ser, revisar la refrigeradora y la alacena, luego organizar la lista por tipo de comida, y así sucesivamente.
+
+En tercer lugar, tenemos las Emociones Negativas y Positivas que resultan de esas acciones, puede poner un número o nota a la acción que genera esa emoción.
+
+Para cerrar el ejercicio tenemos los Puntos de Contacto, estos son donde ocurren las fases o acciones, este bloque es muy importante porque hoy día mezclamos puntos de contacto digitales y presenciales.
+
+Por último, el equipo debe definir donde están las oportunidades más relevantes dentro del mapa. Queremos identificar esos puntos de dolor con mayor impacto para el usuario.
+
+Mucha suerte.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Lectura de Apoyo 2 -La disrupción comienza con los clientes descontentos.
+La disrupción comienza con los clientes descontentos, no con la tecnología
+por Thales S. Teixeira
+
+
+Resumen.   
+
+Cuando se pregunta a los ejecutivos de las empresas tradicionales: «¿Qué es lo que perturba su negocio?» casi siempre responden con: «La tecnología X está revolucionando nuestro negocio» o «La start-up Y está revolucionando nuestro negocio». Pero investigaciones y análisis recientes revelan fallas en ese pensamiento. Lo que estas empresas parecen haber pasado por alto es que el patrón más común y generalizado de disrupción lo impulsan los clientes. Son los que están detrás de las decisiones de adoptar o rechazar nuevas tecnologías o nuevos productos. Cuando las grandes empresas deciden centrarse en cambiar las necesidades y los deseos de los clientes, terminan respondiendo de manera más eficaz a la disrupción digital.
+
+Durante ocho años he visitado empresas líderes en más de 20 industrias de todo el mundo que decían estar en proceso de disrupción. Cada vez, hacía a los ejecutivos de estas empresas tradicionales la misma pregunta: «¿Qué es lo que está alterando su negocio?» No importaba con quién hablara, siempre recibía una de dos respuestas: «La tecnología X está revolucionando nuestro negocio» o «La start-up Y está revolucionando nuestro negocio». Pero mis últimas investigaciones y análisis revelan fallas en ese pensamiento. Son los clientes los que impulsan la disrupción.
+
+En el escenario común en el que los ejecutivos piensan que la tecnología intenta generar disrupción sus negocios, intentan encontrar la manera de desarrollarla internamente o comprarla a otros. Las principales empresas de automóviles como GM y Ford son un buen ejemplo: han gastado miles de millones comprar y luego construya tecnologías de conducción eléctrica y autónoma.
+
+Si la amenaza de interrupción proviene de una nueva empresa, el titular a menudo intenta adquirirla, si la valoración es lo suficientemente baja. También pueden intentar competir con el startup en precio, como medio de bloquear su avance. En la mayoría de los casos, he visto, ninguna de estas respuestas funcionó según lo previsto.
+
+Para ver un ejemplo de la ruta de adquisición, piense en Yahoo. Una vez fue el líder en el incipiente espacio de los motores de búsqueda, pero perdió la primera posición ante Google y luego perdió la segunda posición ante Bing de Microsoft. En respuesta, la entonces CEO Marissa Mayer se fue de compras para adquirir tecnologías y startups en un intento por recuperar la corona. En 2016, Mayer tenía adquirió 53 nuevas empresas tecnológicas, gastando entre 2,3 y 2,8 mil millones de dólares e incontables horas de sus altos ejecutivos con la debida diligencia en fusiones y adquisiciones. Yahoo finalmente cerró 33 de estas empresas emergentes, descontinuó los productos de 11 empresas emergentes y dejó cinco a sus propios dispositivos, sin poder asimilarlas. En total, Yahoo solo integró completamente dos de estas empresas: Tumblr y BrightRoll. En 2017, al no poder crecer, Verizon adquirió Yahoo por 4 800 millones de dólares, muy lejos de su valoración máxima de 100 000 millones de dólares. (Verizon es ahora según se informa, quiere vender Tumblr.)
+
+Lo que estas empresas parecen haber pasado por alto es que el patrón más común y generalizado de disrupción lo impulsan los clientes. Son los que están detrás de las decisiones de adoptar o rechazar nuevas tecnologías o nuevos productos. Cuando las grandes empresas deciden centrarse en cambiar las necesidades y los deseos de los clientes, terminan respondiendo de manera más eficaz a la disrupción digital.
+
+Mi análisis ha crecido desde visitar o hablar con ejecutivos de empresas establecidas y luego tener conversaciones similares con sus retadores. En mi libro, Desbloquear la cadena de valor del cliente, Hablo de los pares de operadores titulares de la lista de abajo. Basándome en las entrevistas y los análisis de estos sectores, descubrí un patrón subyacente común de disrupción digital impulsada por el cliente. Los startups disruptivos entran en los mercados no robando clientes a las empresas tradicionales, sino robando algunas actividades seleccionadas de los clientes. Y las actividades que los disruptores eligen quitarles a los operadores tradicionales son precisamente las que los clientes no están satisfechos. Birchbox robó una muestra de productos de belleza de Sephora. Trov robó el encendido y apagado de seguros de State Farm. PillPack robó recetas gestionadas de CVS.
+
+Muchos de las formas de pensar estándar sobre los nuevos mercados en crecimiento que deberían participar las grandes empresas del conglomerado gira en torno a la idea de «adyacencias» y «sinergias», en el lado firme. Por ejemplo, fabricando motocicletas y cortadoras de césped, dos categorías aparentemente no relacionadas, Honda ha ganado sinergias de producción que le han permitido ser mejor y más rentable en ambos mercados.
+
+Pero si los clientes están en el centro de la disrupción, las empresas tienen que entender cómo ofrecer del lado del cliente sinergias. El éxito del crecimiento lo dictan las ventajas acumuladas para el cliente, no para la empresa. Después de todo, son ellos los que eligen si adoptan o adquieren sus nuevos productos o no. Aquí es donde entra en juego una estrategia de acoplamiento: es el concepto de crear nuevos productos que creen sinergias significativas con su producto original. En otras palabras, hace que sea más barato, fácil o rápido para los clientes satisfacer sus necesidades en comparación con el uso de dos productos de empresas diferentes. Una de las formas más claras de asociarse es lanzar nuevos productos o servicios que estén inmediatamente adyacentes (es decir, que ocurran antes o después) de las actividades que los consumidores ya realizan con la empresa.
+
+Airbnb es un ejemplo. Comenzó en la industria de la hostelería y los viajes ofreciendo viviendas compartidas. Después de un crecimiento considerable con la oferta original, pasó a ofrecer a sus usuarios un foro de debate en línea y una herramienta de planificación de viajes (una actividad que los viajeros suelen realizar antes de reservar un alojamiento en Airbnb) y, a continuación, pasó a ofrecer experiencias de ocio locales para los huéspedes durante sus estancias en Airbnb. Según Brian Chesky, uno de los fundadores de Airbnb, el objetivo es cubrir todas las etapas clave de la cadena de valor del cliente (CVC).
+
+﻿La atención del lado del cliente de Alibaba
+
+Alibaba es un excelente ejemplo de este tipo de crecimiento centrado en el cliente. En 2018, la empresa se había convertido en una de las más grandes del mundo por capitalización bursátil, con más de diez empresas multimillonarias en sectores muy variados como la venta minorista, el comercio electrónico, los servicios en la nube en línea, los teléfonos móviles, la logística, los pagos, los contenidos y más. Entre 2011 y 2016, los ingresos de la empresa crecieron a una tasa anual compuesta media del 87%. Las ganancias aumentaron un 94% y el flujo de caja un 120%. Un crecimiento tan rápido fue único para una empresa digital tan grande y consolidada.
+
+Entonces, ¿cómo lo hizo Alibaba? Fundada como un mercado online de empresa a empresa, en 2003 la empresa pasó al comercio electrónico de consumidor a consumidor y en 2004 creó Aliwangwang, un servicio de mensajes de texto, y Alipay, un servicio de pagos en línea. Al año siguiente, pasó a adquirir Yahoo China en un esfuerzo por ofrecer a los consumidores contenido y servicios web.
+
+En 2008, lanzó TMall, un minorista en línea de empresa a consumidor, seguido en 2009 por Alibaba Cloud Computing, una empresa de almacenamiento en la nube. Se iniciaron otros lanzamientos de nuevos negocios: una empresa de motores de búsqueda llamada eTao (2010), una start-up llamada Aliyin que creó sistemas operativos móviles (2011) y un consorcio de logística llamado Cainiao (2013). En 2015, Alibaba adquirió una participación mayoritaria en el fabricante de teléfonos inteligentes Meizu. Observe cuántas de estas empresas operaban en sectores no adyacentes. Las sinergias entre la venta minorista, la computación en la nube, los pagos y la fabricación de productos electrónicos no están claras de inmediato. Las empresas de estos sectores requieren diferentes recursos y empleados con habilidades muy variadas para competir. Entonces, ¿por qué la empresa no se quedó con su mercado en línea original de empresa a empresa y centró el crecimiento allí para dominar el mercado y lograr una ventaja competitiva mediante las economías de escala tradicionales?
+
+La estrategia de expansión de Alibaba se centró directamente en las sinergias del lado del cliente y las adyacencias CVC. En 2016, alrededor del 50% de las compras en línea se realizaron a través de teléfonos móviles, y el resto en ordenadores portátiles, ordenadores de sobremesa y tabletas. Para comprar en Internet, los consumidores primero tenían que decidir qué dispositivo utilizar para acceder a Internet e, implícitamente, qué combinación de sistema operativo y navegador. Después de eso, la mayoría de los consumidores abrieron navegadores y señalaron sitios web para acceder a sus servicios de comunicación, correo electrónico, redes sociales, aplicaciones de chat. En algún momento, identificaron la necesidad de realizar una compra y realizaron búsquedas fuera de los sitios web de comercio electrónico (por ejemplo, en Google o Baidu) o dentro de ellos. A partir de ahí, los consumidores llegaron a los sitios de comercio electrónico más apropiados. En China, los clientes empresariales iban a Alibaba, mientras que los consumidores iban a Taobao para comprar productos de otros consumidores o a Tmall para comprar productos en minoristas.
+
+Para obtener más información sobre los productos o para negociar precios (una práctica común en China), los compradores se comunicaban con los vendedores, normalmente a través de aplicaciones de chat. Los consumidores tenían que pagar su compra y esperar a que un operador logístico la entregara. Esto representó la extensión del CVC típico de los compradores en línea. Al analizar este CVC, detectamos un patrón claro. Alibaba comenzó a crecer centrándose en una sola fase del CVC del comprador con su sitio web de Alibaba. A continuación, se desplazó hacia el exterior para capturar otras actividades de los clientes. En lugar de utilizar el enfoque tradicional de adyacencias industriales (los pagos, los teléfonos móviles y la logística no son industrias adyacentes), la empresa optó por pasar a actividades CVC adyacentes. En 2018, las empresas de la empresa prestaban servicios a la mayoría de las actividades CVC. Alibaba no buscó de inmediato las sinergias del lado de la empresa. Su verdadera victoria radica en lograr sinergias del lado del cliente. Eso, a su vez, convenció a sus clientes de unirse.
+
+El principal obstáculo de seguir la estrategia de acoplamiento es que esto puede llevar a su empresa a negocios muy diferentes que requieren personas, habilidades y capacidades muy diferentes a las que posee su empresa. En el caso de Alibaba, pasó del comercio electrónico a los servicios financieros, a las herramientas de búsqueda, a la logística, al hardware y al software. Hay muy poca sinergia en el lado de la empresa en estos negocios.
+
+Cuando presento el acoplamiento como estrategia de crecimiento a mis clientes, les advierto de este obstáculo y les pido que rellenen una tabla con las habilidades que creen que se necesitarán para tener éxito en una nueva actividad adyacente, si tienen esa habilidad y, si no, cómo planean adquirirlas. Este ejercicio es sencillo, pero esencial. Les pido que enumeren hasta cuatro actividades que quieren que lleve a cabo la empresa. A continuación, enumeran las habilidades requeridas y las habilidades disponibles. Por último, para adquirir las habilidades que no tienen, ¿necesitan construir, pedir prestado o comprar? Entonces, ¿se lo pide prestado a otros mediante asociaciones o lo compra mediante adquisiciones o contratación? Lo que no pueden hacer es ignorar la necesidad de cerrar esa brecha de habilidades.
+
+Muchas empresas establecidas se «encasillan» a sí mismas de manera demasiado estrecha en una industria específica. En consecuencia, su área de exploración de un nuevo crecimiento está limitada, no por su potencial o sus capacidades, sino por definiciones arbitrarias del sector. La forma más rápida de crecer es ofrecer algo que sus clientes actuales, los más leales a usted, pagarían con gusto si se lo proporcionara y que, al adquirir esta nueva oferta, haría que su producto o servicio original fuera aún más valioso para ellos. Y aquí está el problema: los nuevos productos que se lanzan no tienen que ser mejores que los de las empresas establecidas para tener éxito. Mientras los nuevos productos tengan sinergias con el cliente, es probable que se adopten.
+
+La disrupción es un fenómeno impulsado por el cliente. Las nuevas tecnologías van y vienen. Los que se quedan son los que los consumidores eligen adoptar. Muchas de los startups de rápido crecimiento, como Uber, Airbnb, Slack, Pinterest y Lyft, no tienen acceso a más o mejores tecnologías innovadoras que las empresas tradicionales de sus respectivos sectores. Lo que sí tienen es la capacidad de crear y entregar de forma más rápida y precisa exactamente lo que quieren los clientes. Esto está provocando que el cambio de manos de cantidades considerables de cuota de mercado sea en períodos de tiempo relativamente cortos. Esa es la base de la disrupción moderna en pocas palabras.
+
+Fuente: https://hbr.org/2019/06/disruption-starts-with-unhappy-customers-not-technology?language=es
+
+
+Paso 5: Definición del Reto de Diseño.
+
+Ya que realizamos un proceso de convergencia a través del Mapa de Experiencia de Usuario, debemos crear el Objetivo de Diseño. Pero antes de esto, necesitamos hacer la diferencia entre el objetivo de negocio del proyecto y el reto de diseño.
+
+El Objetivo de Negocio es un reto amplio que tiene la organización, y que buscamos resolver a través de innovación. Pongamos como ejemplo una empresa de consumo masivo de alimentos, esta puede tener un reto como, incrementar la penetración del segmento de veganos en Colombia, o rediseñar el modelo de negocio de e-commerce en México.
+
+Como pueden observar son retos amplios que necesitan un entendimiento profundo de la necesidad.
+
+En el caso del reto de diseño, es un objetivo SMART que definimos después de un entendimiento de las necesidades del usuario. Este objetivo debe ser específico, tener una temporalidad y una métrica. Con este objetivo, estamos simplificando todo el proceso de aprendizaje para establecer qué es lo que queremos solucionar al usuario.
+
+
+
+Volviendo a la empresa de consumo masivo, podríamos tomar el primer objetivo y convertirlo en un reto de diseño de la siguiente manera:
+
+Asumamos que hicimos nuestro proceso de entendimiento del usuario y descubrimos que, algo que molesta al segmento es que no existen productos listos para comer en el trabajo. Entonces el equipo del proyecto define el siguiente reto.
+
+
+
+Como pueden observar simplificamos la información, y definimos específicamente que necesitamos idear para resolver el reto de negocio.
+
+El proceso de redacción del Objetivo de Diseño lo realizaremos en una sesión con el equipo de proyecto de la siguiente manera:
+
+Primero, es importante refrescar la mente, así que, cada uno de los miembros del equipo realizará un análisis de toda la información generada previamente.
+
+Segundo, cada miembro del equipo va a redactar su reto de forma individual, luego cuando todos hayan redactado en una hoja o post-it el reto, lo van a leer a sus compañeros.
+
+Y, por último, como tercer paso todas las personas van a tomar 3 votos y van a votar por el que parece ser el mejor reto. Luego afinaremos para que sea el reto de diseño del proyecto.
+
+En caso de que haya empate, la persona decisora debe votar para escoger que camino vamos a tomar.
+
+Cuando tengamos el reto definido estaremos listos para avanzar al proceso de inspiración.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+
+Paso 6: Proceso de Inspiración.
+
+¿Cómo realizar el paso de Inspiración?
+
+Después de acotar todos los aprendizajes y convertirlos en un objetivo de diseño, llegamos a la etapa de Inspiración. Este paso lo realizaremos en una sesión de trabajo con el equipo de proyecto, y esta sesión puede tener una duración de 4 horas.
+
+Para lograr con éxito este paso hay que considerar varias cosas.
+
+Primero, el paso de Inspiración es donde buscamos generar la mayor cantidad de ideas posibles para solucionar el objetivo de diseño que definimos. Esto lo haremos a través de un proceso de recolección de información de varias fuentes.
+
+Segundo, una vez que hemos generado muchas ideas, debemos seleccionarlas y filtrarlas mediante diferentes técnicas, y quedarnos con las que resuelvan mejor el problema. Pueden hacer una votación entre los miembros de equipo para definir las que mejor resuelven el objetivo de diseño.
+
+Y tercero, hay que tener en cuenta los diferentes puntos de vista, y aplicar con objetividad los criterios de selección. Debemos desprendernos de nuestras certezas y poner a disposición del equipo todo nuestro conocimiento.
+
+Veamos ahora las tres técnicas que vamos a realizar en la sesión de Inspiración.
+
+El método del Agile Innovation Process de Rocket Innovation considera 3 ejercicios en el paso de inspiración.
+
+1. La Matriz de Creatividad.
+
+2. Los Lightning Demos.
+
+y 3. Entrevista con Expertos.
+
+La Matriz de Creatividad es una herramienta que busca que cada miembro del equipo realice una investigación digital, de cómo en otras industrias, regiones o países, otras marcas han resuelto un reto similar al que estamos desarrollando.
+
+
+
+Lo que buscamos son estímulos visuales que nos permitan materializar nuestra inspiración. La matriz diseñada por Rocket Innovation tiene dos ejes, en el eje horizontal podremos las industrias, y en el eje vertical los elementos de diseño que vamos a buscar, por ejemplo, elementos de arquitectura de información o diseño visual.
+
+La segunda herramienta es un complemento de la Matriz de Creatividad, los Lightning Demos. Aquí lo que buscamos es explicar un elemento que nos llamó la atención, y que creemos puede ser un gran diferenciador en lo que queremos diseñar.
+
+
+
+Pongamos de ejemplo una marca que está desarrollando una página de comercio electrónico, y dentro de la investigación vimos que un elemento clave de la página de Amazon son las opiniones de clientes, ese es nuestro Lightning Demo, debemos entender cómo funciona y como suma a la propuesta de valor.
+
+Por último, una herramienta que usaremos nuevamente va a ser la Entrevista con Expertos.
+
+La Entrevista con Expertos es un mecanismo de generación de ideas que busca utilizar el conocimiento del equipo, para generar todas las posibles soluciones.
+
+A través de entrevistas individuales, cada miembro del equipo tendrá 10 minutos para exponer cómo resolvería el Reto de Diseño. Mientras tanto, el resto del equipo estará de forma individual generando anotaciones de todo lo que creen que genera valor.
+
+
+
+Pueden utilizar la Matriz de Creatividad o los Lightning Demos de apoyo, para poder exponer su punto de vista, y también los miembros del equipo pueden realizar preguntas acerca de cada uno de los comentarios.
+
+Cuando hemos terminado el ejercicio, vamos a priorizar en grupo todas las ideas. Esto lo vamos a hacer por medio de una votación individual, y luego organizaremos las ideas de mayor a menor cantidad de votos.
+
+Con esto tendremos ya una serie de partes que servirán de inspiración para crear el primer prototipo.
+
+Nos vemos en el siguiente paso.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Paso 7: Diseño del Prototipo.
+
+Espero que estén disfrutando la ejecución de su proyecto.
+
+Ahora hablaremos del Diseño del Prototipo.
+
+El Prototipo es una herramienta que permite al equipo de proyecto validar sus supuestos respecto al valor que puede generar la solución.
+
+Existen diferentes tipos de prototipos, físicos, digitales, inclusive puede ser un relato, pero lo importante es saber que el Prototipo no es un producto terminado o final, sino que es una expresión visual de lo que podría ser una primera versión de producto.
+
+Muchas empresas desarrollan productos finales, y luego los prueban con sus clientes, pero cuando no salen bien evaluados vuelven a crear uno nuevo, generando un impacto en el uso de recursos de la organización.
+
+La utilización de prototipos busca mitigar esto a través de la validación con propuestas de bajo costo, para confirmar si lo que estamos desarrollando resuelve las necesidades del cliente. Estas propuestas de bajo costo deben simular funciones con las que el usuario pueda interactuar, y nos dé retroalimentación objetiva de la solución.
+
+
+
+Al final el prototipo es un estímulo creativo para recolectar información del usuario.
+
+Hablemos ahora de los pasos para crear el prototipo.
+
+Para crear el prototipo lo primero que debe hacer el equipo es definir qué es lo que quiere validar. Para esto necesitamos entender cómo el usuario va a interactuar con la solución. Esto lo haremos a través de una herramienta que se llama Boceto o Sketch. La herramienta permite al equipo materializar cómo funciona la solución que estamos proponiendo en 6 o 8 pasos.
+
+
+
+Idealmente el primer Boceto o Sketch puede hacerse a mano, pero hoy día existen soluciones digitales que nos permiten ejecutar de forma más práctica.
+
+El segundo paso es definir que queremos validar. Esto lo haremos a través de una Definición de Hipótesis que queremos confirmar o descartar. Una hipótesis es una suposición hecha a partir de unos datos que sirven de base para iniciar una investigación.
+
+Para poder enfocar sus esfuerzos, el equipo de proyecto se tiene que preguntar qué es lo que queremos validar o descartar con el usuario.
+
+Siempre recomendamos que el equipo del proyecto defina un máximo de tres funciones para la primera validación con usuarios, y luego conforme vamos teniendo retroalimentación iremos modificando el prototipo y actualizando las hipótesis.
+
+La definición de las hipótesis la haremos en la Matriz de Prototipo que fue diseñada por el equipo de Rocket Innovation.
+
+
+
+Luego de haber creado el Boceto de la solución, debemos definir cómo va a interactuar con el usuario, esto lo haremos a través del Storyboard.
+
+La herramienta llamada Storyboard es la integración de la experiencia del cliente con la solución. Lo que busca es identificar visualmente cómo va a interactuar la solución con el cliente y a resolver su necesidad. Es una herramienta que ayuda al equipo a materializar la usabilidad de la primera versión.
+
+Recuerden tener a la mano el mapa de Experiencia de Cliente para usarlo de referencia en los pasos del usuario.
+
+Por último, debemos avanzar con la creación del prototipo.
+
+Si tienen recursos para invertir, es recomendable contar con un diseñador que les ayude con la creación del prototipo, pero no debe ser algo muy complejo de ejecutar. Un buen prototipo puede hacerse en un máximo de 24 a 48 horas, sí duramos más de eso, no estamos haciendo un prototipo, estamos haciendo un producto final.
+
+No olviden que en la plataforma podrán encontrar la matriz de prototipo que usa Rocket Innovation en sus proyectos. En el siguiente video hablaremos de la etapa de Validación.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Paso 8: Validación de la Propuesta de Valor.
+
+Hemos llegado al Paso 8 de la etapa de Descubrimiento del Cliente.
+
+La Validación
+
+Para llegar a esta etapa hemos pasado por una serie de actividades, desde la identificación de una necesidad u objetivo de un grupo de usuarios, hasta crear una primera versión de la propuesta de valor.
+
+En esta etapa, presentamos el prototipo al usuario para que nos dé retroalimentación acerca del valor percibido. Esto, lo vamos a hacer de forma individual a través de entrevistas. La idea es escuchar qué tiene que decir el cliente acerca de esta primera propuesta para resolver su necesidad.
+
+Es una actividad donde recogeremos nuevamente información del segmento, pero ya no sobre su necesidad o contexto, sino sobre la posible solución.
+
+Para realizar la Validación con Usuarios necesitamos tener un proceso de preparación previo que detallaré a continuación.
+
+Lo primero que debemos hacer es definir el segmento con el cual queremos validar la propuesta. Este segmento debe tener afinidad con el problema, no es recomendable mezclar segmentos de clientes pues las necesidades son diferentes, o no tienen el mismo nivel de importancia.
+
+Las entrevistas deben ser en un lugar cómodo donde el usuario se sienta tranquilo, y también es importante introducir el tema u objetivo de la sesión.
+
+No queremos respuestas automáticas, sino que buscamos conversar y recolectar datos de valor por medio de la perspectiva del cliente. Debemos tener dentro de la conversación un proceso de empatía para que el usuario sienta confianza a la hora de platicar con nosotros.
+
+En Rocket Innovation, recomendamos realizar entre 7 y 9 entrevistas individuales de 30 minutos para obtener toda la información posible.
+
+Lo segundo que debemos preparar es el guion de la entrevista. El guion es un grupo de preguntas, que servirán al entrevistador para mantener la conversación centrada en los temas principales. Este guion puede ser de 8 a 10 preguntas que deben comenzar con temas generales hasta llegar a lo específico.
+
+La base del guion son las hipótesis que desarrollamos a la hora de crear el prototipo, pues es lo que el equipo priorizó que quiere confirmar o descartar en la fase previa.
+
+Lo tercero que debemos preparar es la recolección de la información, esta se hará a través de la Matriz de Validación. En esta herramienta iremos poniendo todos los datos que el usuario nos va dando, y luego haremos un análisis de esta información.
+
+La matriz está diseñada con dos ejes, en el eje horizontal pondremos el nombre de los entrevistados, y en el eje vertical las preguntas del guion. Durante las entrevistas iremos haciendo anotaciones que sean evidencias positivas o negativas acerca de la propuesta.
+
+
+
+El objetivo de la matriz es recolectar la información para identificar patrones, que nos sirvan para tomar decisiones y ajustar la propuesta de valor.
+
+UN TIP IMPORTANTE. Es preferible que junto al entrevistador podamos tener una persona con el rol de observador. Esta persona estará recolectando toda la información posible mientras el cliente explica cómo percibe la solución. También podemos tener equipo audio visual para poder grabar la entrevista y que luego el equipo pueda verla.
+
+Cuando hayamos realizado todas las entrevistas debemos hacer una sesión de conclusiones en equipo, y decidir si realizamos una versión dos del prototipo para validar nuevamente, o si queremos avanzar con el producto mínimo viable. Esto va a depender de la complejidad del proyecto.
+
+Por último, recuerden que el prototipo es una herramienta, no un producto final. Nuestro objetivo principal es disminuir la incertidumbre a través de las iteraciones con los usuarios.
+
+Si tienen dudas acerca de cómo realizar un prototipo y el proceso de validación, no olviden reservar una sesión con su mentor.
+
+Visita nuestra página www.necesitoinnovar.com
+
+Suscríbete a nuestro blog Hacker Corporativo
+
+Lectura de Apoyo 3 -El Arte del Elevator Pitch.
+El Arte del Elevator Pitch.
+Por Carmine Gallo
+
+Resumen.   
+
+Los guionistas de Hollywood suelen disponer de tres a cinco minutos para presentar sus ideas cinematográficas, pero los productores solo tardan unos 45 segundos en saber si quieren invertir. Concretamente, los productores escuchan un eslogan: una o dos frases que expliquen de qué trata la película. Si no hay un eslogan, la mayoría de las veces, no hay rebajas. Esta es una valiosa lección para los innovadores de cualquier campo. A los líderes empresariales se les pregunta a menudo: ¿Qué hace su empresa o producto? ¿Cuál es su idea? Si pueden responder con una frase convincente, pueden enganchar a su público e influir en la gente para que invierta en su trabajo. Si bien dominar el arte del eslogan es un desafío, hay medidas que los líderes pueden tomar para hacerlo: (1) Sea breve. (2) Identifique lo único que quiere que su público recuerde. (3) Asegúrese de que su equipo está en la misma página.
+
+Mucho antes de que su película favorita llegara a un cine cercano a usted, se presentó en una reunión de presentación. Los guionistas de Hollywood suelen disponer de tres a cinco minutos para proponer una idea, pero los productores solo tardan unos 45 segundos en saber si quieren invertir. Concretamente, los productores escuchan un eslogan: una o dos frases que expliquen de qué trata la película. Si no hay un eslogan, la mayoría de las veces, no hay rebajas.
+
+Un argumento ganador comienza con un eslogan ganador, una valiosa lección para los innovadores de cualquier campo. Las innovaciones más valiosas ofrecen soluciones novedosas a problemas desafiantes. Pero sin el apoyo de los inversores, ni siquiera las mejores ideas podrían despegar nunca. Para influir en las personas que pueden convertir su idea en realidad, tiene que presentar su propuesta de una manera emocionante y directa. Todo esto comienza con el eslogan, un arte que los guionistas han dominado.
+
+Cuando se les pregunta de qué trata su película, los guionistas de éxito tienen una respuesta lista que es clara, concisa y atractiva. A los líderes empresariales se les hace una versión de esta misma pregunta a lo largo de sus carreras:
+
+¿De qué trata su presentación?
+¿Qué hace su empresa emergente o producto?
+¿Cuál es su idea?
+Si puede responder con una frase convincente, puede enganchar a su público. Según el biólogo molecular John Medina de la Facultad de Medicina de la Universidad de Washington, el cerebro humano anhela el significado antes que los detalles. Cuando un oyente no entiende la idea general que se presenta en una presentación, le cuesta digerir la información. Un eslogan le ayudará a presentar el panorama general para su público.
+
+En el cine de Hollywood, uno de los mejores lemas de todos los tiempos pertenece al icónico thriller que mantuvo a los niños alejados del océano durante el verano de 1975:
+
+Un jefe de policía, con fobia a las aguas abiertas, lucha contra un tiburón gigante con apetito por los nadadores y los capitanes de barcos, a pesar de que un codicioso ayuntamiento exige que la playa permanezca abierta.
+
+¿Qué hace que funcione? El eslogan de Mandíbulas identifica los elementos clave de la historia: el héroe, su debilidad, su conflicto y los obstáculos que debe superar, todo en una frase. Describe la historia general de una manera interesante y sencilla, en lugar de centrarse en detalles que pueden parecer sin sentido sin el contexto del panorama general.
+
+Los líderes empresariales pueden utilizar los lemas de manera similar para explicar con claridad una idea compleja. Si se domina, puede ser una herramienta poderosa e influyente. Pero comunicar su punto de vista de una manera sencilla y digerible es difícil. De hecho, es más fácil añadir desorden a las presentaciones de negocios que eliminar detalles innecesarios y condensarlos. Aunque dominar el eslogan es un desafío, hay medidas que puede tomar para hacerlo.
+
+Sea breve. En su libro Líder, el inversor de capital riesgo Michael Moritz cuenta la historia de dos estudiantes de posgrado de Stanford que entraron en su oficina de Sequoia Capital y le presentaron el plan de negocios más conciso que había oído en su vida. Sergey Brin y Larry Page dijeron a Moritz: «Google organiza la información mundial y hace que sea de acceso universal». En 10 palabras, ese eslogan llevó a la primera gran ronda de financiación de Google. Moritz dijo que el terreno de juego estaba claro y que tenía un sentido del propósito.
+
+Un eslogan debe ser fácil de decir y fácil de recordar. Como ejercicio, desafíese a mantener menos de 140 caracteres, lo suficientemente corto como para publicarlo en la versión anterior de Twitter (antes la plataforma permitía 280 caracteres por tuit).
+
+Identifique una cosa que quiera que su público recuerde. Steve Jobs era un genio a la hora de identificar lo único que quería que recordáramos de un producto nuevo. En 2001, el iPod original le permitía llevar «1000 canciones en el bolsillo». En 2008, el MacBook Air era «el portátil más delgado del mundo». Apple sigue utilizando esta estrategia hoy en día. Los ejecutivos repiten una descripción de una frase cuando presentan nuevos productos. Este mismo eslogan aparece en el sitio web de Apple y en los comunicados de prensa de la empresa.
+
+La «única cosa» debe satisfacer las necesidades de su público. Un profesional de ventas de una gran empresa de tecnología me contó recientemente un eslogan que utiliza para abordar las necesidades de su público, los compradores de IT: «Nuestro producto reducirá la factura de teléfono móvil de su empresa en un 80%». Con una frase, sus clientes quieren saber más porque su lema resuelve un problema específico y hace que sus jefes los vean como héroes. Por encima de todo, el eslogan es fácil de recordar y ofrece a las personas una historia que pueden llevar a otros responsables de la toma de decisiones de sus organizaciones.
+
+Asegúrese de que su equipo está en la misma página. Toda persona que hable en nombre de su empresa o venda su producto debe entregar el mismo eslogan. Por ejemplo, trabajé con los principales líderes de SanDisk, la empresa de memorias flash, para prepararlos para una importante conferencia de analistas financieros. Siete ejecutivos impartieron cinco horas de presentaciones. Le sugerí que, antes de entrar en detalles financieros esenciales, cada persona entregara el mismo eslogan al principio de sus presentaciones y, a continuación, terminara sus presentaciones repitiéndolas una vez más. Como grupo, nos decidimos por el lema: «En la próxima década, Flash será más grande de lo que cree».
+
+El eslogan pretendía despertar el entusiasmo por todos los productos que la memoria flash permitiría, como iPads, ordenadores portátiles, teléfonos inteligentes y servicios en la nube. Al concluir la conferencia, la primera entrada del blog financiero que apareció llevaba el título: «Flash será más grande de lo que piensa». Los lemas llaman la atención; los lemas consistentes son memorables y repetibles.
+
+Si no puede comunicar su propuesta en una frase corta, no se dé por vencido. A veces el idioma le llega de inmediato, otras veces puede que necesite más práctica. Tenga paciencia. Cuando domine el eslogan, podrá aclarar fácilmente sus ideas y ayudar al público a retenerlas, recordarlas y actuar en consecuencia.
+
+Fuente: https://hbr.org/2018/10/the-art-of-the-elevator-pitch?language=es
+
+Paso 9: Pitch del proyecto (Go/No Go)
+
+Hemos llegado al último paso de la Etapa de Descubrimiento del Cliente.
+
+El Pitch del Proyecto.
+
+El Pitch del Proyecto es la presentación de los resultados de la etapa de Descubrimiento, a un grupo de personas que pueden ayudarnos a convertir la idea en una realidad.
+
+Esta presentación debe ser ejecutiva, de no más de 45 minutos, donde el centro de atención debe estar en la propuesta de valor o la solución en sí, y cuáles fueron los principales aprendizajes.
+
+También debe darles sentido estratégico a estos aprendizajes, respondiendo a la pregunta: ¿Cuál va a ser el impacto de negocio si ejecutamos este proyecto?
+
+Recuerde que es un foro ejecutivo, con lo cual, debemos preparar nuestra exposición.
+
+Veamos ahora la estructura de la presentación:
+
+1. Describa el problema u objetivo del usuario que quiere atender con esta propuesta de valor.
+
+2. Desarrolle el objetivo del proyecto, y los principales aprendizajes de la etapa de descubrimiento.
+
+3. Explique la solución, apóyese en elementos visuales, y utilice el prototipo para que la audiencia pueda interactuar con él.
+
+4. Explique cuál es el posible impacto en el negocio, incluya información cuantitativa si es necesario.
+
+5. Describa que necesita del foro, y la organización para poder ejecutar el proyecto.
+
+6. Explique los siguientes pasos en caso de recibir la aprobación para avanzar a la segunda etapa.
+
+7. Abra el espacio para preguntas y respuestas de la audiencia.
+
+Por último, un TIP muy importante es conocer quién es nuestra audiencia, cuáles son sus preocupaciones y necesidades, y cómo el proyecto los va a ayudar en sus objetivos de negocio.
+
+Vean a la audiencia como inversionistas que les ayudarán en la ejecución de su proyecto de innovación.
+
+Esperamos verlos en la Etapa 2: La Validación del Cliente.

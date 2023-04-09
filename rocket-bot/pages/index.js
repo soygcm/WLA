@@ -47,7 +47,8 @@ export default function Home() {
     }
 
     setLoading(true);
-    setMessages((prevMessages) => [...prevMessages, { "message": userInput, "type": "userMessage" }]);
+    // setMessages((prevMessages) => [...prevMessages, { "message": userInput, "type": "userMessage" }]);
+    setMessages((prevMessages) => [ { "message": userInput, "type": "userMessage" }]);
 
     // Send user question and history to API
     const response = await fetch("/api/chat", {
@@ -147,7 +148,7 @@ export default function Home() {
                 type="text"
                 id="userInput"
                 name="userInput"
-                placeholder={loading ? "Waiting for response..." : "Type your question..."}
+                placeholder={loading ? "Esperando respuesta..." : "Escribe tu pregunta..."}
                 value={userInput}
                 onChange={e => setUserInput(e.target.value)}
                 className={styles.textarea}

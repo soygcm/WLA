@@ -23,7 +23,7 @@ export default async function (req, res) {
   const chain = RetrievalQAChain.fromLLM(model, loadedVectorStore.asRetriever());
   // console.log(chain)
   const result = await chain.call({
-    query: "HISTORY/n"+req.body.history+"/n/nQUESTION/n"+req.body.question,
+    query: req.body.question,
   });
   console.log({ result });
 

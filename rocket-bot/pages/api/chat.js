@@ -7,6 +7,14 @@ export default async function (req, res) {
     
   // })
 
+  const loadedVectorStore = await HNSWLib.load(
+    "embeddings",
+    new OpenAIEmbeddings({openAIApiKey:  process.env.OPENAI_API_KEY})
+  );
+
+  const result = await loadedVectorStore.similaritySearch("¿Que se ocupa para iniciar mi projecto?", 1);
+  // console.log("result", result);
+
   const model = new OpenAI({ 
     openAIApiKey: process.env.OPENAI_API_KEY, 
     temperature: 0.9,

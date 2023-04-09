@@ -43,7 +43,7 @@ async function run() {
     // Load the vector store from the same directory
     const loadedVectorStore = await HNSWLib.load(
       "embeddings",
-      new OpenAIEmbeddings()
+      new OpenAIEmbeddings({openAIApiKey:  process.env.OPENAI_API_KEY})
     );
   
     const chain = RetrievalQAChain.fromLLM(model, loadedVectorStore.asRetriever());

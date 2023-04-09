@@ -48,7 +48,7 @@ export default function Home() {
 
     setLoading(true);
     // setMessages((prevMessages) => [...prevMessages, { "message": userInput, "type": "userMessage" }]);
-    setMessages((prevMessages) => [ { "message": userInput, "type": "userMessage" }]);
+    setMessages((prevMessages) => [ prevMessages[0], { "message": userInput, "type": "userMessage" }]);
 
     // Send user question and history to API
     const response = await fetch("/api/chat", {

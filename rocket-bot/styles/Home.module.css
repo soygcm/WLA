@@ -32,6 +32,10 @@
   margin-left: 1rem;
 }
 
+.navlogo img{
+  height: 40pt;
+}
+
 .navlinks {
   width: 20rem;
   display: flex;

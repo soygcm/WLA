@@ -1,52 +1,32 @@
 import { OpenAI } from "langchain";
+import { HNSWLib } from "langchain/vectorstores";
+import { OpenAIEmbeddings } from "langchain/embeddings";
+import { RetrievalQAChain } from "langchain/chains";
+
 
 
 export default async function (req, res) {
 
   // const stream = new ReadableStream({
-    
+
   // })
+
+  const model = new OpenAI({ openAIApiKey: process.env.OPENAI_API_KEY });
 
   const loadedVectorStore = await HNSWLib.load(
     "embeddings",
-    new OpenAIEmbeddings({openAIApiKey:  process.env.OPENAI_API_KEY})
+    new OpenAIEmbeddings({ openAIApiKey: process.env.OPENAI_API_KEY })
   );
 
-  const result = await loadedVectorStore.similaritySearch("¿Que se ocupa para iniciar mi projecto?", 1);
-  // console.log("result", result);
+  // const result = await loadedVectorStore.similaritySearch(req.body.question, 1);
 
-  const model = new OpenAI({ 
-    openAIApiKey: process.env.OPENAI_API_KEY, 
-    temperature: 0.9,
-    // streaming: true,
-    // callbackManager:  CallbackManager.fromHandlers({
-    //   async handleLLMNewToken(token) {
-    //     console.log(token);
-    //   },
-    // }),
+  const chain = RetrievalQAChain.fromLLM(model, loadedVectorStore.asRetriever());
+  // console.log(chain)
+  const result = await chain.call({
+    query: "HISTORY/n"+req.body.history+"/n/nQUESTION/n"+req.body.question,
   });
+  console.log({ result });
 
-  console.log("question", req.body.question)
 
-  const result = await model.call(
-    req.body.history + "\n" +
-    req.body.question
-  );
-
-  // const response = await fetch(process.env.LCC_ENDPOINT_URL, {
-  //   method: "POST",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //     "X-Api-Key": process.env.LCC_TOKEN
-  //   },
-  //   body: JSON.stringify({
-  //     question: req.body.question,
-  //     history: req.body.history
-  //   }),
-  // });
-
-    // const data = await response.json();
-    console.log("result", result)
-
-    res.status(200).json({ result: {success: result} })
+  res.status(200).json({ result: { success: result.text } })
 }

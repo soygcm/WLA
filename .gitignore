@@ -192,3 +192,5 @@ target/
 
 # Notebook Checkpoints
 .ipynb_checkpoints/
+
+Auto-GPT

@@ -13,7 +13,7 @@ data class Auth(
 )
 
 data class Verification(
-    var success: () -> Unit = {}
+    var success: () -> kotlin.Unit = {}
 )
 
 data class AuthFlow(
@@ -23,8 +23,8 @@ data class AuthFlow(
 
 class VerificationSuccess(
     override val name: String = "Verification success",
-    override val payload: Unit = Unit
-) : Action<Unit>
+    override val payload: kotlin.Unit = Unit
+) : Action<kotlin.Unit>
 
 fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThen<AuthFlow>) {
     if (actionThen.action is VerificationSuccess) {
@@ -34,7 +34,10 @@ fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThe
     }
 }
 
-fun authFlowUnit2(unit: Kokoro<AuthFlow> = Kokoro(initialState = AuthFlow())): Kokoro<AuthFlow> {
+val authFlowUnitInitialState = Unidad(initialState = AuthFlow())
+fun authFlowUnit(
+    unit: Unidad<AuthFlow> = authFlowUnitInitialState
+): Unidad<AuthFlow> {
     unit.whenActionThen { actionThen ->
         whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen)
     }

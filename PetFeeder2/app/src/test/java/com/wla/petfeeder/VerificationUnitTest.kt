@@ -8,7 +8,7 @@ import org.junit.Test
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class AuthFlowUnitTest {
+class VerificationUnitTest {
 
     @Test
     fun test_UserShallSeeLoginScreen_WhenVerificationSuccess2() {

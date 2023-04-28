@@ -28,7 +28,7 @@ data class WhenActionThen<T>(val action: Action<*>, val then: Then<T>)
 
 typealias WhenThen<T> = (WhenActionThen<T>) -> Unit
 
-class Kokoro<T>(
+class Unidad<T>(
     val initialState: T,
     private var _state: T = initialState,
     val action: Action<Any> = DoNothing(),
@@ -39,9 +39,9 @@ class Kokoro<T>(
     val state: T
         get() = _state
 
-    var useCases: MutableList<WhenThen<T>> = mutableListOf()
+    private var _useCases: MutableList<WhenThen<T>> = mutableListOf()
     fun whenAction(action: Action<*>) {
-        useCases.forEach { whenThen ->
+        _useCases.forEach { whenThen ->
             whenThen(
                 WhenActionThen(action = action, then = { then ->
                     _state = then(state)
@@ -50,6 +50,6 @@ class Kokoro<T>(
         }
     }
     fun whenActionThen(whenThen: WhenThen<T>) {
-        useCases.add(whenThen)
+        _useCases.add(whenThen)
     }
 }

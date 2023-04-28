@@ -9,22 +9,10 @@ import org.junit.Test
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class AuthFlowUnitTest {
-    @Test
-    fun test_UserShallSeeLoginScreen_WhenVerificationSuccess() {
-        // Given
-        val sut = authFlowUnit()
-
-        // When
-        sut.auth.verification.success()
-
-        // Then
-        assertEquals(sut.screen, "LoginScreen")
-    }
-
 //    @Test
-//    fun test_UserShallSeeLoginScreen_WhenVerificationSuccess2() {
+//    fun test_UserShallSeeLoginScreen_WhenVerificationSuccess() {
 //        // Given
-//        val sut = authFlowUnit2()
+//        val sut = authFlowUnit()
 //
 //        // When
 //        sut.auth.verification.success()
@@ -32,4 +20,16 @@ class AuthFlowUnitTest {
 //        // Then
 //        assertEquals(sut.screen, "LoginScreen")
 //    }
+
+    @Test
+    fun test_UserShallSeeLoginScreen_WhenVerificationSuccess2() {
+        // Given
+        val sut = authFlowUnit2()
+
+        // When
+        sut.whenAction(VerificationSuccess())
+
+        // Then
+        assertEquals(sut.state.screen, "LoginScreen")
+    }
 }

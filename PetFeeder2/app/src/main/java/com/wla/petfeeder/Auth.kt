@@ -18,21 +18,25 @@ data class Verification(
 
 data class AuthFlow(
     val auth: Auth = Auth(),
-    var screen: String = ""
+    val screen: String = ""
 )
 
-fun authFlowUnit(some: Kokoro = Kokoro()): AuthFlow {
-    var authFlow = AuthFlow()
-    authFlow.auth.verification.success = {
-        authFlow.screen = "LoginScreen"
+class VerificationSuccess(
+    override val name: String = "Verification success",
+    override val payload: Unit = Unit
+) : Action<Unit>
+
+fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThen<AuthFlow>) {
+    if (actionThen.action is VerificationSuccess) {
+        actionThen.then {
+            it.copy(screen = "LoginScreen")
+        }
     }
-    return authFlow
 }
 
-fun authFlowUnit2(some: Kokoro = Kokoro()): Kokoro {
-    var authFlow = AuthFlow()
-    authFlow.auth.verification.success = {
-        authFlow.screen = "LoginScreen"
+fun authFlowUnit2(unit: Kokoro<AuthFlow> = Kokoro(initialState = AuthFlow())): Kokoro<AuthFlow> {
+    unit.whenActionThen { actionThen ->
+        whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen)
     }
-    return some
+    return unit
 }

@@ -5,8 +5,10 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
+import android.os.Build
 import android.os.Handler
 import android.os.Looper
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -25,9 +27,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.wla.petfeeder.capture.takePhoto
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
+@RequiresApi(Build.VERSION_CODES.R)
 @OptIn(ExperimentalMaterial3Api::class)
-// @SuppressLint("ServiceCast")
 @Composable
 fun ProximitySensorExample() {
     val context = LocalContext.current
@@ -57,8 +62,14 @@ fun ProximitySensorExample() {
     }
 
     if (proximityTriggered) {
-        // Aquí llamarías a tu función de captura de fotos
-        handler.postDelayed({ proximityTriggered = false }, 10000L)
+        LaunchedEffect(Unit) {
+            repeat(2) { // Tomará dos fotos en total (una cada 30s durante un minuto)
+                // Llamar a la función de captura de fotos aquí
+                takePhoto(context)
+                delay(30000L) // Esperar 30 segundos antes de tomar la siguiente foto
+            }
+            proximityTriggered = false // Resetear el valor de proximityTriggered
+        }
     }
 
     Scaffold(

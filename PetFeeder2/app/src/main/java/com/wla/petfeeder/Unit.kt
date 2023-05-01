@@ -29,11 +29,10 @@ data class WhenActionThen<T>(val action: Action<*>, val then: Then<T>)
 typealias WhenThen<T> = (WhenActionThen<T>) -> Unit
 
 class Unidad<T>(
-    val initialState: T,
-    private var _state: T = initialState,
+    private var _state: T,
     val action: Action<Any> = DoNothing(),
-    val dependencies: Dependencies = Dependencies(dependencies = listOf()),
-    val config: Any = 0
+    private val dependencies: Dependencies = Dependencies(dependencies = listOf()),
+    private val config: Any = 0
 ) {
 
     val state: T
@@ -52,4 +51,5 @@ class Unidad<T>(
     fun whenActionThen(whenThen: WhenThen<T>) {
         _useCases.add(whenThen)
     }
+    fun handle() {}
 }

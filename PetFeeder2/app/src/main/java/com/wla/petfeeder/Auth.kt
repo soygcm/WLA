@@ -12,8 +12,14 @@ data class Auth(
 
 )
 
+class OnClickConfirm(
+    override val name: String = "on Click Confirm",
+    override val payload: Unit = Unit
+) : Action<Unit>
+
 data class Verification(
-    var success: () -> kotlin.Unit = {}
+    val code: String = "",
+    val email: String = ""
 )
 
 data class AuthFlow(
@@ -34,7 +40,7 @@ fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThe
     }
 }
 
-val authFlowUnitInitialState = Unidad(initialState = AuthFlow())
+val authFlowUnitInitialState = Unidad(_state = AuthFlow())
 fun authFlowUnit(
     unit: Unidad<AuthFlow> = authFlowUnitInitialState
 ): Unidad<AuthFlow> {

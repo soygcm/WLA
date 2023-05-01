@@ -1,5 +1,7 @@
 package com.wla.petfeeder
 
+import com.wla.petfeeder.auth.verificationUnit
+import kotlinx.coroutines.runBlocking
 import org.junit.Assert.*
 import org.junit.Test
 
@@ -20,5 +22,24 @@ class VerificationUnitTest {
 
         // Then
         assertEquals(sut.state.screen, "LoginScreen")
+    }
+
+    @Test
+    fun test_shallSendConfirmationCodeToSignUpAdapter_whenOnClickConfirmIsCalled() = runBlocking {
+        // Given
+//        val provider = MockAuth()
+        val sut = verificationUnit(
+            Verification(
+                code = "1234",
+                email = "email@nextern.com"
+            )
+        )
+
+        // When
+        sut.whenAction(OnClickConfirm())
+//
+//        // Then
+//        assertEquals("1234", provider.confirmationCode)
+//        assertEquals("email@nextern.com", provider.email)
     }
 }

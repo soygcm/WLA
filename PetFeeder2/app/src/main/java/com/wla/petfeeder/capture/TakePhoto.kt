@@ -32,8 +32,8 @@ fun takePhoto(context: Context, lifecycleOwner: LifecycleOwner) {
     // Crear un objeto para configurar la captura de fotos
     val imageCapture = context.display?.let {
         ImageCapture.Builder()
-        .setTargetRotation(it.rotation)
-        .build()
+            .setTargetRotation(it.rotation)
+            .build()
     }
 
     val cameraProviderFuture: ListenableFuture<ProcessCameraProvider> = ProcessCameraProvider.getInstance(context)
@@ -51,12 +51,15 @@ fun takePhoto(context: Context, lifecycleOwner: LifecycleOwner) {
         override fun onImageSaved(outputFileResults: ImageCapture.OutputFileResults) {
             // Guardar la foto en la galería del dispositivo
             savePhotoToGallery(context, photoFile)
+            // Liberar la cámara después de tomar la foto
+            processCameraProvider.unbindAll()
         }
 
         override fun onError(exception: ImageCaptureException) {
             // Manejar errores de captura de fotos
             Log.d("TakePhoto", "error $exception")
-
+            // Liberar la cámara en caso de error
+            processCameraProvider.unbindAll()
         }
     })
 }

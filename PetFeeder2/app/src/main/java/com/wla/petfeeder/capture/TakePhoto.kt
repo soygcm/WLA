@@ -5,18 +5,26 @@ import android.content.Context
 import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
+import android.util.Log
 import androidx.annotation.RequiresApi
+import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageCapture
 import androidx.camera.core.ImageCaptureException
-import androidx.camera.core.ImageProxy
+import androidx.camera.lifecycle.ProcessCameraProvider
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalLifecycleOwner
+//import androidx.camera.
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.LifecycleOwner
+import com.google.common.util.concurrent.ListenableFuture
 import com.wla.petfeeder.R
 import org.apache.commons.io.IOUtils
 import java.io.File
 import java.io.FileInputStream
 
 @RequiresApi(Build.VERSION_CODES.R)
-fun takePhoto(context: Context) {
+fun takePhoto(context: Context, lifecycleOwner: LifecycleOwner) {
+
     // Crear un archivo temporal para guardar la foto
     val outputDirectory = getOutputDirectory(context)
     val photoFile = File(outputDirectory, "photo.jpg")
@@ -28,9 +36,16 @@ fun takePhoto(context: Context) {
         .build()
     }
 
+    val cameraProviderFuture: ListenableFuture<ProcessCameraProvider> = ProcessCameraProvider.getInstance(context)
+    val processCameraProvider = cameraProviderFuture.get()
+
+    processCameraProvider.bindToLifecycle(lifecycleOwner, CameraSelector.DEFAULT_FRONT_CAMERA, imageCapture)
+
+
     // Configurar el Executor para el listener de captura de fotos
     val executor = ContextCompat.getMainExecutor(context)
 
+    Log.d("TakePhoto", imageCapture.toString())
     // Definir el listener de captura de fotos
     imageCapture?.takePicture(ImageCapture.OutputFileOptions.Builder(photoFile).build(), executor, object : ImageCapture.OnImageSavedCallback {
         override fun onImageSaved(outputFileResults: ImageCapture.OutputFileResults) {
@@ -40,6 +55,8 @@ fun takePhoto(context: Context) {
 
         override fun onError(exception: ImageCaptureException) {
             // Manejar errores de captura de fotos
+            Log.d("TakePhoto", "error $exception")
+
         }
     })
 }
@@ -53,6 +70,8 @@ private fun getOutputDirectory(context: Context): File {
 }
 
 private fun savePhotoToGallery(context: Context, photoFile: File) {
+    Log.d("TakePhoto", photoFile.toString())
+
     val contentValues = ContentValues().apply {
         put(MediaStore.Images.Media.DISPLAY_NAME, "photo.jpg")
         put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg")

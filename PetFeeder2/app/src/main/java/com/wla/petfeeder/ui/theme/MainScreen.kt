@@ -24,9 +24,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.wla.petfeeder.CameraPermission
 import com.wla.petfeeder.capture.takePhoto
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -36,9 +38,16 @@ import kotlinx.coroutines.launch
 @Composable
 fun ProximitySensorExample() {
     val context = LocalContext.current
+    val lifecycleOwner = LocalLifecycleOwner.current
+
     val sensorManager = context.getSystemService(Context.SENSOR_SERVICE) as SensorManager
     val proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY)
-
+    var isGranted by remember { mutableStateOf(false) }
+    CameraPermission(onPermissionGranted = { isGranted = true })
+    if (!isGranted) {
+        return
+        // Aquí pones tu código para utilizar la cámara
+    }
     val handler = Handler(Looper.getMainLooper())
 
     var proximityTriggered by remember { mutableStateOf(false) }
@@ -65,7 +74,7 @@ fun ProximitySensorExample() {
         LaunchedEffect(Unit) {
             repeat(2) { // Tomará dos fotos en total (una cada 30s durante un minuto)
                 // Llamar a la función de captura de fotos aquí
-                takePhoto(context)
+                takePhoto(context, lifecycleOwner)
                 delay(30000L) // Esperar 30 segundos antes de tomar la siguiente foto
             }
             proximityTriggered = false // Resetear el valor de proximityTriggered
@@ -102,6 +111,7 @@ fun ProximitySensorExample() {
     )
 }
 
+@RequiresApi(Build.VERSION_CODES.R)
 @Preview(showBackground = true)
 @Composable
 fun ProximitySensorExamplePreview() {

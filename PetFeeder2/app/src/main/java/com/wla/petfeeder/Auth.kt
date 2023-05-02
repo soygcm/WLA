@@ -12,10 +12,7 @@ data class Auth(
 
 )
 
-class OnClickConfirm(
-    override val name: String = "on Click Confirm",
-    override val payload: Unit = Unit
-) : Action<Unit>
+
 
 data class Verification(
     val code: String = "",
@@ -32,7 +29,7 @@ class VerificationSuccess(
     override val payload: kotlin.Unit = Unit
 ) : Action<kotlin.Unit>
 
-fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThen<AuthFlow>) {
+fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThen<AuthFlow, NoDependencies>) {
     if (actionThen.action is VerificationSuccess) {
         actionThen.then {
             it.copy(screen = "LoginScreen")
@@ -40,10 +37,10 @@ fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThe
     }
 }
 
-val authFlowUnitInitialState = Unidad(_state = AuthFlow())
+val authFlowUnitInitialState = Unidad(_state = AuthFlow(), dependencies = NoDependencies())
 fun authFlowUnit(
-    unit: Unidad<AuthFlow> = authFlowUnitInitialState
-): Unidad<AuthFlow> {
+    unit: Unidad<AuthFlow, NoDependencies> = authFlowUnitInitialState
+): Unidad<AuthFlow, NoDependencies> {
     unit.whenActionThen { actionThen ->
         whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen)
     }

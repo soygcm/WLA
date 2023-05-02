@@ -9,8 +9,20 @@ data class AuthProvider(
     val email: String = ""
 )
 
-class AuthProviderCanHandle(
-    val confirmCode: suspend (VerificationPayload) -> Unit
+data class AuthProviderCanHandle(
+    val confirmCode: suspend (VerificationPayload) -> Unit = {}
 ) : CanHandle
 
 typealias AuthProviderUnit = Unidad<AuthProvider, Dependencies, AuthProviderCanHandle>
+
+fun authProviderUnit(): AuthProviderUnit{
+    val unit: AuthProviderUnit = Unidad(_state = AuthProvider(), canHandle = AuthProviderCanHandle())
+    unit.canHandle {
+        it.copy(
+            confirmCode = {
+
+            }
+        )
+    }
+    return unit
+}

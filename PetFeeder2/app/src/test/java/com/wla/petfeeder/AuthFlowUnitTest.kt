@@ -1,5 +1,8 @@
 package com.wla.petfeeder
 
+import com.wla.petfeeder.auth.Status
+import com.wla.petfeeder.auth.VerificationSuccess
+import kotlinx.coroutines.runBlocking
 import org.junit.Assert.*
 import org.junit.Test
 
@@ -20,5 +23,18 @@ class AuthFlowUnitTest {
 
         // Then
         assertEquals(sut.state.screen, "LoginScreen")
+    }
+
+    @Test
+    fun test_AuthFlowContainsVerificationLogic() = runBlocking  {
+        // Given
+        val sut = authFlowUnit()
+
+        // When
+        val verification = sut.handle.verification
+        verification.clickConfirmCode()
+
+        // Then
+        assertEquals(sut.state.auth.verification.status, Status.Success)
     }
 }

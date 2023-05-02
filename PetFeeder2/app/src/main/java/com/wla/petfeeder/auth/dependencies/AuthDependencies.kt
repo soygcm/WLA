@@ -6,6 +6,7 @@ import com.wla.petfeeder.Unidad
 import com.wla.petfeeder.auth.VerificationPayload
 import com.wla.petfeeder.auth.providers.AuthProvider
 import com.wla.petfeeder.auth.providers.AuthProviderUnit
+import com.wla.petfeeder.auth.providers.authProviderUnit
 
 
 interface AuthDependencies : Dependencies {
@@ -13,7 +14,5 @@ interface AuthDependencies : Dependencies {
 }
 
 class RealAuthDependencies : AuthDependencies {
-    override fun authProvider(): AuthProviderUnit {
-        return Unidad(_state = AuthProvider())
-    }
+    override fun authProvider(): AuthProviderUnit = authProviderUnit()
 }

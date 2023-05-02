@@ -36,39 +36,48 @@ data class WhenActionThen<T, D : Dependencies>(
         get() = dependencies
 }
 
-typealias WhenThen<T, D> = (WhenActionThen<T, D>) -> Unit
+typealias WhenThen<T, D, E> = (Unidad<T, D, E>) -> Unit
 
-class Unidad<T, D : Dependencies, E : CanHandle>(
+data class Unidad<T, D : Dependencies, E : CanHandle>(
     private var _state: T,
-    val action: Action<Any> = DoNothing(),
+    val action: Action<*> = DoNothing(),
     private val dependencies: D = NoDependencies() as D,
+    private var canHandle: E = CanHandleNothing() as E,
 //    private val dependencies: Dependencies = Dependencies(dependencies = listOf()),
-    private val config: Any = 0
+    private val config: Any = 0,
+    val then: Then<T> = {}
 ) {
 
     val state: T
         get() = _state
 
-    private var _canHandle: E = CanHandleNothing() as E
+//    private var _canHandle: E = CanHandleNothing() as E
 
-    private var _useCases: MutableList<WhenThen<T, D>> = mutableListOf()
+    private var _useCases: MutableList<WhenThen<T, D, E>> = mutableListOf()
     fun whenAction(action: Action<*>) {
         _useCases.forEach { whenThen ->
             whenThen(
-                WhenActionThen(action = action, dependencies = dependencies, then = { then ->
+                this.copy(action = action, then = { then ->
                     _state = then(state)
                 })
             )
         }
     }
-    fun whenActionThen(whenThen: WhenThen<T, D>) {
+    fun whenActionThen(whenThen: WhenThen<T, D, E>) {
         _useCases.add(whenThen)
     }
 
+    fun <oT, oD : Dependencies, oE : CanHandle> contains(other: Unidad<oT, oD, oE>, merge: (T, oT) -> T) {
+        other.whenActionThen {
+            this.whenAction(it.action)
+            _state = merge(state, it.state)
+        }
+    }
+
     val handle: E
-        get() = _canHandle
-    fun canHandle(canHandle: () -> E) {
-        _canHandle = canHandle()
+        get() = canHandle
+    fun canHandle(canHandle: (E) -> E) {
+        this.canHandle = canHandle(this.canHandle)
     }
 
     val dependOn: D

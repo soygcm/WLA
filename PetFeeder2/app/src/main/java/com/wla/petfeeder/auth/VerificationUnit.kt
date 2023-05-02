@@ -12,13 +12,13 @@ class OnClickConfirmCode(
 
 class AttemptConfirmCode(
     override val name: String = "on Click Confirm",
-    override val payload: String
-) : Action<String>
+    override val payload: VerificationPayload
+) : Action<VerificationPayload>
 
 fun whenOnClickConfirmIsCalledShallSendConfirmationCodeToSignUpAdapter(actionThen: WhenActionThen<Verification, AuthDependencies>) {
     if (actionThen.action is OnClickConfirmCode) {
         actionThen.then {
-            actionThen.dependency.getAuthProvider().whenAction(AttemptConfirmCode(payload = it.code))
+            actionThen.dependency.getAuthProvider().whenAction(AttemptConfirmCode(payload = VerificationPayload(it)))
             it
         }
     }

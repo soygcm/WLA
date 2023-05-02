@@ -14,9 +14,23 @@ data class Auth(
 
 
 
-data class Verification(
+data class VerificationPayload(
     val code: String = "",
     val email: String = ""
+){
+    constructor(verification: Verification): this(
+        code = verification.code,
+        email = verification.email)
+}
+
+enum class Status{
+    Initial, Loading, Success, Error
+}
+
+data class Verification(
+    val code: String = "",
+    val email: String = "",
+    val status: Status = Status.Initial
 )
 
 data class AuthFlow(

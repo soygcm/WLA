@@ -9,6 +9,7 @@ import kotlinx.coroutines.runBlocking
 import org.junit.Assert.*
 import org.junit.Test
 
+// TODO: This is ugly AF
 class MockAuthDependencies : AuthDependencies {
 
     lateinit var verificationPayload: VerificationPayload
@@ -61,5 +62,15 @@ class VerificationUnitTest {
         sut.handleAction(VerificationSuccess())
         // Then
         assertEquals(Status.Success, sut.state.status)
+    }
+
+    @Test
+    fun test_shallChangeStatusToLoading_whenVerificationStart() = runBlocking {
+        // Given
+        val sut = verificationUnit()
+        // When
+        sut.handleAction(VerificationStart())
+        // Then
+        assertEquals(Status.Loading, sut.state.status)
     }
 }

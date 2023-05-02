@@ -55,6 +55,13 @@ fun whenVerificationSuccessShallChangeStatusToSuccess(unit: VerificationUnit) {
         }
     }
 }
+fun whenVerificationStartShallChangeStatusToLoading(unit: VerificationUnit) {
+    if (unit.action is VerificationStart) {
+        unit.then {
+            it.copy(status = Status.Loading)
+        }
+    }
+}
 
 typealias VerificationUnit = Unidad<VerificationState, AuthDependencies, VerificationCanHandle>
 
@@ -63,6 +70,7 @@ val initialVerificationUnit: VerificationUnit = Unidad(initialState = Verificati
 fun verificationUnit(unit: VerificationUnit = initialVerificationUnit): VerificationUnit {
     unit.whenActionThen {
         whenVerificationSuccessShallChangeStatusToSuccess(it)
+        whenVerificationStartShallChangeStatusToLoading(it)
     }
     unit.canHandle {
         shallHandleWhenOnClickConfirm(it)

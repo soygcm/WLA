@@ -19,7 +19,7 @@ class AuthFlowUnitTest {
         val sut = authFlowUnit()
 
         // When
-        sut.whenAction(VerificationSuccess())
+        sut.handleAction(VerificationSuccess())
 
         // Then
         assertEquals(sut.state.screen, "LoginScreen")

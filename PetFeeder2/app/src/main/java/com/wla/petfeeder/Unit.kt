@@ -1,8 +1,8 @@
 package com.wla.petfeeder
 
-interface Action<T> {
-    val name: String
-    val payload: T
+interface Action {
+//    val name: String
+//    val payload: T
 }
 
 enum class DependencyType {
@@ -21,13 +21,13 @@ interface CanHandle
 class CanHandleNothing : CanHandle
 
 class DoNothing(
-    override val name: String = "Do nothing",
-    override val payload: Any = 0
-) : Action<Any>
+//    override val name: String = "Do nothing",
+//    override val payload: Any = 0
+) : Action
 
 typealias Then<T> = (then: (T) -> T) -> Unit
 data class WhenActionThen<T, D : Dependencies>(
-    val action: Action<*>,
+    val action: Action,
 //    val state: T,
     private val dependencies: D,
     val then: Then<T>
@@ -40,7 +40,7 @@ typealias WhenThen<T, D, E> = (Unidad<T, D, E>) -> Unit
 
 data class Unidad<T, D : Dependencies, E : CanHandle>(
     private var _state: T,
-    val action: Action<*> = DoNothing(),
+    val action: Action = DoNothing(),
     private val dependencies: D = NoDependencies() as D,
     private var canHandle: E = CanHandleNothing() as E,
 //    private val dependencies: Dependencies = Dependencies(dependencies = listOf()),
@@ -54,7 +54,7 @@ data class Unidad<T, D : Dependencies, E : CanHandle>(
 //    private var _canHandle: E = CanHandleNothing() as E
 
     private var _useCases: MutableList<WhenThen<T, D, E>> = mutableListOf()
-    fun whenAction(action: Action<*>) {
+    fun handleAction(action: Action) {
         _useCases.forEach { whenThen ->
             whenThen(
                 this.copy(action = action, then = { then ->
@@ -69,15 +69,15 @@ data class Unidad<T, D : Dependencies, E : CanHandle>(
 
     fun <oT, oD : Dependencies, oE : CanHandle> contains(other: Unidad<oT, oD, oE>, merge: (T, oT) -> T) {
         other.whenActionThen {
-            this.whenAction(it.action)
+            this.handleAction(it.action)
             _state = merge(state, it.state)
         }
     }
 
     val handle: E
         get() = canHandle
-    fun canHandle(canHandle: (E) -> E) {
-        this.canHandle = canHandle(this.canHandle)
+    fun canHandle(canHandle: (Unidad<T, D, E>) -> E) {
+        this.canHandle = canHandle(this)
     }
 
     val dependOn: D

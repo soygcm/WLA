@@ -36,8 +36,8 @@ class VerificationUnitTest {
     fun test_shallSendConfirmationCodeToSignUpAdapter_whenOnClickConfirm() = runBlocking {
         // Given
         val dependencies = MockAuthDependencies()
-        val unit: VerificationUnit = Unidad(
-            _state = Verification(
+        val unit: VerificationUnit = initialVerificationUnit.copy(
+            _state = VerificationState(
                 code = "1234",
                 email = "email@nextern.com"
             ),
@@ -58,7 +58,7 @@ class VerificationUnitTest {
         // Given
         val sut = verificationUnit()
         // When
-        sut.whenAction(VerificationSuccess())
+        sut.handleAction(VerificationSuccess())
         // Then
         assertEquals(Status.Success, sut.state.status)
     }

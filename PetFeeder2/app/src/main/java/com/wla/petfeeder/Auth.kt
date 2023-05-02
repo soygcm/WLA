@@ -1,7 +1,7 @@
 package com.wla.petfeeder
 
-import com.wla.petfeeder.auth.Verification
-import com.wla.petfeeder.auth.VerificationHandle
+import com.wla.petfeeder.auth.VerificationState
+import com.wla.petfeeder.auth.VerificationCanHandle
 import com.wla.petfeeder.auth.VerificationSuccess
 import com.wla.petfeeder.auth.dependencies.AuthDependencies
 import com.wla.petfeeder.auth.dependencies.RealAuthDependencies
@@ -15,7 +15,7 @@ data class User(
 
 data class Auth(
     val user: User = User(),
-    val verification: Verification = Verification()
+    val verification: VerificationState = VerificationState()
 
 )
 
@@ -25,7 +25,7 @@ data class AuthFlow(
 )
 
 data class AuthFlowCanHandle(
-    val verification: VerificationHandle = VerificationHandle()
+    val verification: VerificationCanHandle = VerificationCanHandle()
 ):CanHandle
 
 fun whenVerificationSuccessThenUserShallSeeLoginScreen(unit: AuthFlowUnit) {
@@ -47,8 +47,8 @@ fun authFlowUnit(
     unit.whenActionThen { it ->
         whenVerificationSuccessThenUserShallSeeLoginScreen(it)
     }
-    unit.canHandle { canHandle->
-        canHandle.copy(
+    unit.canHandle {
+        it.handle.copy(
             verification = verificationUnit.handle
         )
     }
@@ -56,7 +56,5 @@ fun authFlowUnit(
         state.copy(auth = state.auth.copy(verification = verificationState))
     }
 
-//    val verification = unit.handle.verification
-//    verification.clickConfirmCode()
     return unit
 }

@@ -18,7 +18,7 @@ typealias AuthProviderUnit = Unidad<AuthProvider, Dependencies, AuthProviderCanH
 fun authProviderUnit(): AuthProviderUnit{
     val unit: AuthProviderUnit = Unidad(_state = AuthProvider(), canHandle = AuthProviderCanHandle())
     unit.canHandle {
-        it.copy(
+        it.handle.copy(
             confirmCode = {
 
             }

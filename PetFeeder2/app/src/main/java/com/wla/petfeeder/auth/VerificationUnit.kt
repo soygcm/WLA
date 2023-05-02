@@ -59,7 +59,7 @@ fun whenVerificationSuccessShallChangeStatusToSuccess(unit: VerificationUnit){
 
 typealias VerificationUnit = Unidad<VerificationState, AuthDependencies, VerificationCanHandle>
 
-val initialVerificationUnit:VerificationUnit = Unidad(_state = VerificationState(), dependencies = RealAuthDependencies(), canHandle = VerificationCanHandle())
+val initialVerificationUnit:VerificationUnit = Unidad(initialState = VerificationState(), dependencies = RealAuthDependencies(), canHandle = VerificationCanHandle())
 
 fun verificationUnit(unit: VerificationUnit = initialVerificationUnit):VerificationUnit {
     unit.whenActionThen {

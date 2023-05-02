@@ -2,7 +2,6 @@ package com.wla.petfeeder.auth.providers
 
 import com.wla.petfeeder.*
 import com.wla.petfeeder.auth.VerificationPayload
-import com.wla.petfeeder.whenVerificationSuccessThenUserShallSeeLoginScreen
 
 data class AuthProvider(
     val code: String = "",
@@ -16,7 +15,7 @@ data class AuthProviderCanHandle(
 typealias AuthProviderUnit = Unidad<AuthProvider, Dependencies, AuthProviderCanHandle>
 
 fun authProviderUnit(): AuthProviderUnit{
-    val unit: AuthProviderUnit = Unidad(_state = AuthProvider(), canHandle = AuthProviderCanHandle())
+    val unit: AuthProviderUnit = Unidad(initialState = AuthProvider(), canHandle = AuthProviderCanHandle())
     unit.canHandle {
         it.handle.copy(
             confirmCode = {

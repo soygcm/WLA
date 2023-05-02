@@ -13,7 +13,7 @@ class MockAuthDependencies: AuthDependencies {
 
     lateinit var verificationPayload: VerificationPayload
     override fun authProvider(): AuthProviderUnit{
-        val some: AuthProviderUnit = Unidad(_state = AuthProvider())
+        val some: AuthProviderUnit = Unidad(initialState = AuthProvider())
         some.canHandle {
             AuthProviderCanHandle(
                 confirmCode = {
@@ -37,7 +37,7 @@ class VerificationUnitTest {
         // Given
         val dependencies = MockAuthDependencies()
         val unit: VerificationUnit = initialVerificationUnit.copy(
-            _state = VerificationState(
+            initialState = VerificationState(
                 code = "1234",
                 email = "email@nextern.com"
             ),
@@ -47,8 +47,8 @@ class VerificationUnitTest {
 
         // When
         sut.handle.clickConfirmCode()
-//
-//        // Then
+
+        // Then
         assertEquals("1234", dependencies.verificationPayload.code)
         assertEquals("email@nextern.com", dependencies.verificationPayload.email)
     }

@@ -39,7 +39,7 @@ data class WhenActionThen<T, D : Dependencies>(
 typealias WhenThen<T, D, E> = (Unidad<T, D, E>) -> Unit
 
 data class Unidad<T, D : Dependencies, E : CanHandle>(
-    private var _state: T,
+    private var initialState: T,
     val action: Action = DoNothing(),
     private val dependencies: D = NoDependencies() as D,
     private var canHandle: E = CanHandleNothing() as E,
@@ -49,7 +49,7 @@ data class Unidad<T, D : Dependencies, E : CanHandle>(
 ) {
 
     val state: T
-        get() = _state
+        get() = initialState
 
 //    private var _canHandle: E = CanHandleNothing() as E
 
@@ -58,7 +58,7 @@ data class Unidad<T, D : Dependencies, E : CanHandle>(
         _useCases.forEach { whenThen ->
             whenThen(
                 this.copy(action = action, then = { then ->
-                    _state = then(state)
+                    initialState = then(state)
                 })
             )
         }
@@ -70,7 +70,7 @@ data class Unidad<T, D : Dependencies, E : CanHandle>(
     fun <oT, oD : Dependencies, oE : CanHandle> contains(other: Unidad<oT, oD, oE>, merge: (T, oT) -> T) {
         other.whenActionThen {
             this.handleAction(it.action)
-            _state = merge(state, it.state)
+            initialState = merge(state, it.state)
         }
     }
 

@@ -38,7 +38,7 @@ fun whenVerificationSuccessThenUserShallSeeLoginScreen(unit: AuthFlowUnit) {
 
 typealias AuthFlowUnit = Unidad<AuthFlow, AuthDependencies, AuthFlowCanHandle>
 
-val authFlowUnitInitialState: AuthFlowUnit = Unidad(_state = AuthFlow(), canHandle = AuthFlowCanHandle(), dependencies = RealAuthDependencies())
+val authFlowUnitInitialState: AuthFlowUnit = Unidad(initialState = AuthFlow(), canHandle = AuthFlowCanHandle(), dependencies = RealAuthDependencies())
 fun authFlowUnit(
     unit: AuthFlowUnit = authFlowUnitInitialState
 ): AuthFlowUnit {

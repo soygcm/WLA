@@ -26,7 +26,7 @@ class AuthFlowUnitTest {
     }
 
     @Test
-    fun test_AuthFlowContainsVerificationLogic() = runBlocking  {
+    fun test_AuthFlowContainsVerificationLogic() = runBlocking {
         // Given
         val sut = authFlowUnit()
 

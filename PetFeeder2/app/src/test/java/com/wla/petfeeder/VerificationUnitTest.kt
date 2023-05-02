@@ -9,10 +9,10 @@ import kotlinx.coroutines.runBlocking
 import org.junit.Assert.*
 import org.junit.Test
 
-class MockAuthDependencies: AuthDependencies {
+class MockAuthDependencies : AuthDependencies {
 
     lateinit var verificationPayload: VerificationPayload
-    override fun authProvider(): AuthProviderUnit{
+    override fun authProvider(): AuthProviderUnit {
         val some: AuthProviderUnit = Unidad(initialState = AuthProvider())
         some.canHandle {
             AuthProviderCanHandle(

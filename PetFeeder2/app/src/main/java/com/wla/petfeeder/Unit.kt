@@ -1,18 +1,6 @@
 package com.wla.petfeeder
 
-interface Action {
-//    val name: String
-//    val payload: T
-}
-
-enum class DependencyType {
-    DATA_SOURCE, PROVIDER, ADAPTER,
-}
-
-interface Dependency<Req, Res> {
-    val type: DependencyType
-    fun will(req: Req): Res
-}
+interface Action
 
 interface Dependencies
 class NoDependencies : Dependencies
@@ -20,38 +8,24 @@ class NoDependencies : Dependencies
 interface CanHandle
 class CanHandleNothing : CanHandle
 
-class DoNothing(
-//    override val name: String = "Do nothing",
-//    override val payload: Any = 0
-) : Action
+class DoNothing : Action
 
 typealias Then<T> = (then: (T) -> T) -> Unit
-data class WhenActionThen<T, D : Dependencies>(
-    val action: Action,
-//    val state: T,
-    private val dependencies: D,
-    val then: Then<T>
-) {
-    val dependency: D
-        get() = dependencies
-}
 
 typealias WhenThen<T, D, E> = (Unidad<T, D, E>) -> Unit
 
+@Suppress("UNCHECKED_CAST")
 data class Unidad<T, D : Dependencies, E : CanHandle>(
     private var initialState: T,
     val action: Action = DoNothing(),
-    private val dependencies: D = NoDependencies() as D,
-    private var canHandle: E = CanHandleNothing() as E,
-//    private val dependencies: Dependencies = Dependencies(dependencies = listOf()),
+    private val dependencies: D = (NoDependencies() as? D) ?: throw Error("You need to specify what are your dependencies when you create the unit"),
+    private var canHandle: E = (CanHandleNothing() as? E) ?: throw Error("You need to specify what the unit can handle when you create the unit"),
     private val config: Any = 0,
     val then: Then<T> = {}
 ) {
 
     val state: T
         get() = initialState
-
-//    private var _canHandle: E = CanHandleNothing() as E
 
     private var _useCases: MutableList<WhenThen<T, D, E>> = mutableListOf()
     fun handleAction(action: Action) {

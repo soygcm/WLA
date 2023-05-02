@@ -19,7 +19,7 @@ enum class Status{
 }
 
 data class VerificationHandle(
-    val clickConfirmCode: suspend () -> Unit
+    val clickConfirmCode: suspend () -> Unit = {}
 ): CanHandle
 
 data class Verification(
@@ -28,24 +28,10 @@ data class Verification(
     val status: Status = Status.Initial,
 )
 
-//class ConfirmationSu(
-//    override val name: String = "on Click Confirm",
-//    override val payload: Unit = Unit
-//) : Action<Unit>
-//
-//class AttemptConfirmCode(
-//    override val name: String = "on Click Confirm",
-//    override val payload: VerificationPayload
-//) : Action<VerificationPayload>
-
-//fun whenOnClickConfirmIsCalledShallSendConfirmationCodeToSignUpAdapter(actionThen: WhenActionThen<Verification, AuthDependencies>) {
-//    if (actionThen.action is OnClickConfirmCode) {
-//        actionThen.then {
-//            actionThen.dependency.authProvider().whenAction(AttemptConfirmCode(payload = VerificationPayload(it)))
-//            it
-//        }
-//    }
-//}
+suspend fun whenOnClickConfirmShallSendConfirmationCodeToSignUpAdapter(unit: VerificationUnit) {
+    val authProvider = unit.dependOn.authProvider()
+    authProvider.handle.confirmCode(VerificationPayload(unit.state))
+}
 
 typealias VerificationUnit = Unidad<Verification, AuthDependencies, VerificationHandle>
 
@@ -58,8 +44,7 @@ fun verificationUnit(unit: VerificationUnit = initialVerificationUnit):Verificat
     unit.canHandle {
         VerificationHandle(
             clickConfirmCode = {
-                val authProvider = unit.dependOn.authProvider()
-                authProvider.handle.confirmCode(VerificationPayload(unit.state))
+                whenOnClickConfirmShallSendConfirmationCodeToSignUpAdapter(unit)
                 unit.whenAction(VerificationSuccess())
             }
         )

@@ -33,7 +33,7 @@ class MockAuthDependencies: AuthDependencies {
 class VerificationUnitTest {
 
     @Test
-    fun test_shallSendConfirmationCodeToSignUpAdapter_whenOnClickConfirmIsCalled() = runBlocking {
+    fun test_shallSendConfirmationCodeToSignUpAdapter_whenOnClickConfirm() = runBlocking {
         // Given
         val dependencies = MockAuthDependencies()
         val unit: VerificationUnit = Unidad(
@@ -52,4 +52,25 @@ class VerificationUnitTest {
         assertEquals("1234", dependencies.verificationPayload.code)
         assertEquals("email@nextern.com", dependencies.verificationPayload.email)
     }
+
+//    @Test
+//    fun test_shallSendConfirmationCodeToSignUpAdapter_whenOnClickConfirmIsCalled() = runBlocking {
+//        // Given
+//        val dependencies = MockAuthDependencies()
+//        val unit: VerificationUnit = Unidad(
+//            _state = Verification(
+//                code = "1234",
+//                email = "email@nextern.com"
+//            ),
+//            dependencies = dependencies
+//        )
+//        val sut = verificationUnit(unit)
+//
+//        // When
+//        sut.handle.clickConfirmCode()
+////
+////        // Then
+//        assertEquals("1234", dependencies.verificationPayload.code)
+//        assertEquals("email@nextern.com", dependencies.verificationPayload.email)
+//    }
 }

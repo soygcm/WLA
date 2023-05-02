@@ -1,6 +1,7 @@
 package com.wla.petfeeder.auth.providers
 
 import com.wla.petfeeder.*
+import com.wla.petfeeder.auth.VerificationPayload
 import com.wla.petfeeder.whenVerificationSuccessThenUserShallSeeLoginScreen
 
 data class AuthProvider(
@@ -8,7 +9,8 @@ data class AuthProvider(
     val email: String = ""
 )
 
-fun mockAuthProvider(unit: Unidad<AuthProvider, Dependencies> = Unidad(_state = AuthProvider())): Unidad<AuthProvider, Dependencies> {
+class AuthProviderCanHandle(
+    val confirmCode: suspend (VerificationPayload) -> Unit
+) : CanHandle
 
-    return unit
-}
+typealias AuthProviderUnit = Unidad<AuthProvider, Dependencies, AuthProviderCanHandle>

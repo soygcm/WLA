@@ -15,7 +15,10 @@ interface Dependency<Req, Res> {
 }
 
 interface Dependencies
-class NoDependencies: Dependencies
+class NoDependencies : Dependencies
+
+interface CanHandle
+class CanHandleNothing : CanHandle
 
 class DoNothing(
     override val name: String = "Do nothing",
@@ -23,19 +26,19 @@ class DoNothing(
 ) : Action<Any>
 
 typealias Then<T> = (then: (T) -> T) -> Unit
-data class WhenActionThen<T, D: Dependencies>(
+data class WhenActionThen<T, D : Dependencies>(
     val action: Action<*>,
 //    val state: T,
     private val dependencies: D,
     val then: Then<T>
-    ){
+) {
     val dependency: D
         get() = dependencies
 }
 
 typealias WhenThen<T, D> = (WhenActionThen<T, D>) -> Unit
 
-class Unidad<T, D: Dependencies>(
+class Unidad<T, D : Dependencies, E : CanHandle>(
     private var _state: T,
     val action: Action<Any> = DoNothing(),
     private val dependencies: D = NoDependencies() as D,
@@ -45,6 +48,8 @@ class Unidad<T, D: Dependencies>(
 
     val state: T
         get() = _state
+
+    private var _canHandle: E = CanHandleNothing() as E
 
     private var _useCases: MutableList<WhenThen<T, D>> = mutableListOf()
     fun whenAction(action: Action<*>) {
@@ -59,5 +64,13 @@ class Unidad<T, D: Dependencies>(
     fun whenActionThen(whenThen: WhenThen<T, D>) {
         _useCases.add(whenThen)
     }
-    fun handle() {}
+
+    val handle: E
+        get() = _canHandle
+    fun canHandle(canHandle: () -> E) {
+        _canHandle = canHandle()
+    }
+
+    val dependOn: D
+        get() = dependencies
 }

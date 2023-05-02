@@ -1,23 +1,25 @@
 package com.wla.petfeeder
 
-import com.wla.petfeeder.auth.AttemptConfirmCode
-import com.wla.petfeeder.auth.OnClickConfirmCode
-import com.wla.petfeeder.auth.VerificationUnit
+import com.wla.petfeeder.auth.*
 import com.wla.petfeeder.auth.dependencies.AuthDependencies
 import com.wla.petfeeder.auth.providers.AuthProvider
-import com.wla.petfeeder.auth.providers.mockAuthProvider
-import com.wla.petfeeder.auth.verificationUnit
+import com.wla.petfeeder.auth.providers.AuthProviderCanHandle
+import com.wla.petfeeder.auth.providers.AuthProviderUnit
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.*
 import org.junit.Test
 
 class MockAuthDependencies: AuthDependencies {
 
-    lateinit var action: Action<*>
-    override fun getAuthProvider(): Unidad<AuthProvider, Dependencies>{
-        val some: Unidad<AuthProvider, Dependencies> = Unidad(_state = AuthProvider(), dependencies = NoDependencies())
-        some.whenActionThen {
-            action = it.action
+    lateinit var verificationPayload: VerificationPayload
+    override fun authProvider(): AuthProviderUnit{
+        val some: AuthProviderUnit = Unidad(_state = AuthProvider())
+        some.canHandle {
+            AuthProviderCanHandle(
+                confirmCode = {
+                    verificationPayload = it
+                }
+            )
         }
         return some
     }
@@ -44,10 +46,10 @@ class VerificationUnitTest {
         val sut = verificationUnit(unit)
 
         // When
-        sut.whenAction(OnClickConfirmCode())
+        sut.handle.clickConfirmCode()
 //
 //        // Then
-        assertEquals("1234", (dependencies.action as AttemptConfirmCode).payload.code)
-        assertEquals("email@nextern.com", (dependencies.action as AttemptConfirmCode).payload.email)
+        assertEquals("1234", dependencies.verificationPayload.code)
+        assertEquals("email@nextern.com", dependencies.verificationPayload.email)
     }
 }

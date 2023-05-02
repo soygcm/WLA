@@ -1,5 +1,7 @@
 package com.wla.petfeeder
 
+import com.wla.petfeeder.auth.Verification
+
 data class User(
     val name: String = "",
     val age: Int = 0,
@@ -14,24 +16,7 @@ data class Auth(
 
 
 
-data class VerificationPayload(
-    val code: String = "",
-    val email: String = ""
-){
-    constructor(verification: Verification): this(
-        code = verification.code,
-        email = verification.email)
-}
 
-enum class Status{
-    Initial, Loading, Success, Error
-}
-
-data class Verification(
-    val code: String = "",
-    val email: String = "",
-    val status: Status = Status.Initial
-)
 
 data class AuthFlow(
     val auth: Auth = Auth(),
@@ -51,12 +36,15 @@ fun whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen: WhenActionThe
     }
 }
 
-val authFlowUnitInitialState = Unidad(_state = AuthFlow(), dependencies = NoDependencies())
+typealias AuthFlowUnit = Unidad<AuthFlow, NoDependencies, CanHandleNothing>
+
+val authFlowUnitInitialState:AuthFlowUnit = Unidad(_state = AuthFlow())
 fun authFlowUnit(
-    unit: Unidad<AuthFlow, NoDependencies> = authFlowUnitInitialState
-): Unidad<AuthFlow, NoDependencies> {
+    unit: AuthFlowUnit = authFlowUnitInitialState
+): AuthFlowUnit {
     unit.whenActionThen { actionThen ->
         whenVerificationSuccessThenUserShallSeeLoginScreen(actionThen)
     }
+    unit.handle
     return unit
 }
